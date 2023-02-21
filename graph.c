@@ -74,7 +74,7 @@ void GeneratePhysWall(struct physWall *w, struct graphWall g)
 }*/
 
 
-void drawRect(unsigned char x)
+/*void drawRect(unsigned char x)
 {
 	unsigned char i, j;
 
@@ -85,7 +85,7 @@ void drawRect(unsigned char x)
 			*(g_graphBufPtr+(i*128)+j) = 0xFF;
 		}
 	}
-}
+}*/
 
 void FlushGraphics()
 {
@@ -113,6 +113,67 @@ void Fill(unsigned char clr)
 	}
 }
 
+
+
+void DrawFood(unsigned char x, unsigned char y)
+{
+						SetPx(x+3,y-1); SetPx(x+4,y-1);
+	 					SetPx(x+3,y-2); SetPx(x+4,y-2);
+						SetPx(x+3,y-3); SetPx(x+4,y-3); 
+	SetPx(x+0,y+2); SetPx(x+0,y+3); SetPx(x+0,y+4); SetPx(x+0,y+5);
+	SetPx(x+7,y+2); SetPx(x+7,y+3); SetPx(x+7,y+4); SetPx(x+7,y+5);
+	SetPx(x+2,y+0); SetPx(x+3,y+0); SetPx(x+4,y+0); SetPx(x+5,y+0);
+	SetPx(x+2,y+7); SetPx(x+3,y+7); SetPx(x+4,y+7); SetPx(x+5,y+7);
+	SetPx(x+1,y+1); SetPx(x+6,y+1); SetPx(x+6,y+6); SetPx(x+1,y+6);
+	
+}
+
+void DrawSnake(unsigned char x, unsigned char y)
+{	//head
+	SetPx(x,y+3); SetPx(x,y+4);  SetPx(x,y+5);
+    SetPx(x+1, y+2); SetPx(x+1,y+6);
+    SetPx(x+2, y+1); SetPx(x+2, y+7);
+	//eyes
+	SetPx(x+2, y+3); SetPx(x+2, y+5);
+	// tongue
+	SetPx(x-1, y+4); 
+	SetPx(x-2, y+4); 
+	SetPx(x-3, y+4);
+	// body
+   	SetPx(x+3, y); SetPx(x+3, y+8);
+	SetPx(x+4, y+1); SetPx(x+4, y+7);
+   	SetPx(x+5, y+2); SetPx(x+5, y+3); SetPx(x+5, y+4); SetPx(x+5, y+5); SetPx(x+5, y+6);
+	SetPx(x+6, y+2); SetPx(x+6, y+3); SetPx(x+6, y+4); SetPx(x+6, y+5); SetPx(x+6, y+6);
+   	SetPx(x+7, y+2); SetPx(x+7, y+3); SetPx(x+7, y+4); SetPx(x+7, y+5); SetPx(x+7, y+6);
+	SetPx(x+8, y+2); SetPx(x+8, y+3); SetPx(x+8, y+4); SetPx(x+8, y+5); SetPx(x+8, y+6);
+	SetPx(x+9, y+2); SetPx(x+9, y+3); SetPx(x+9, y+4); SetPx(x+9, y+5); SetPx(x+9, y+6);
+	SetPx(x+10, y+2); SetPx(x+10, y+3); SetPx(x+10, y+4); SetPx(x+10, y+5); SetPx(x+10, y+6);
+	SetPx(x+11, y+3); SetPx(x+11, y+4); SetPx(x+11, y+5);   
+	SetPx(x+12, y+4); 
+}
+
+void DrawSquare(unsigned char x, unsigned char y)
+{
+    // Draw a square
+    SetPx(x, y);
+    SetPx(x+1, y);
+    SetPx(x+2, y);
+    SetPx(x+3, y);
+    SetPx(x+4, y);
+    SetPx(x, y+1);
+    SetPx(x+4, y+1);
+    SetPx(x, y+2);
+    SetPx(x+4, y+2);
+    SetPx(x, y+3);
+    SetPx(x+1, y+3);
+    SetPx(x+2, y+3);
+    SetPx(x+3, y+3);
+    SetPx(x+4, y+3);
+}
+
+
+
+/*
 void DrawHole(unsigned char x, unsigned char y)
 {
 	SetPx(x+0,y+2); SetPx(x+0,y+3); SetPx(x+0,y+4); SetPx(x+0,y+5);
@@ -122,21 +183,49 @@ void DrawHole(unsigned char x, unsigned char y)
 	SetPx(x+1,y+1); SetPx(x+6,y+1); SetPx(x+6,y+6); SetPx(x+1,y+6);
 }
 
-void DrawFood(unsigned char x, unsigned char y)
+void DrawCircle(unsigned char x, unsigned char y)
 {
-    // Set the four pixels of the square that will make up the top half of the circle
-    SetPx(x-1, y-1);
-    SetPx(x-1, y);
-    SetPx(x, y-1);
-    SetPx(x, y);
+	SetPx(x+0,y+2); SetPx(x+0,y+4); //0
+	SetPx(x+7,y+3); SetPx(x+7,y+5); //7
+	SetPx(x+1,y+1); SetPx(x+1,y+3); SetPx(x+1,y+5); //1
+	SetPx(x+6,y+2); SetPx(x+6,y+4); SetPx(x+6,y+6); //6
+	SetPx(x+2,y+0); SetPx(x+2,y+2); SetPx(x+2,y+4); SetPx(x+2,y+6); // 2
+	SetPx(x+4,y+0); SetPx(x+4,y+2); SetPx(x+4,y+4); SetPx(x+4,y+6); // 4
+	SetPx(x+3,y+1); SetPx(x+3,y+3); SetPx(x+3,y+5); SetPx(x+3,y+7); // 3
+	SetPx(x+5,y+1); SetPx(x+5,y+3); SetPx(x+5,y+5); SetPx(x+5,y+7); // 5
 
-    // Set the four pixels of the square that will make up the bottom half of the circle
-    SetPx(x, y+1);
-    SetPx(x+1, y);
+	SetPx(x+0,y+3); SetPx(x+0,y+5); SetPx(x+1,y+6); SetPx(x+2,y+7);
+	SetPx(x+3,y+0); SetPx(x+4,y+7); SetPx(x+5,y+0); SetPx(x+6,y+1);
+	SetPx(x+7,y+2); SetPx(x+7,y+4);
+}*/
+
+void DrawDiamond(unsigned char x, unsigned char y)
+{
+    // Draw a diamond
+    SetPx(x+2, y);
     SetPx(x+1, y+1);
+    SetPx(x+3, y+1);
     SetPx(x, y+2);
+    SetPx(x+4, y+2);
+    SetPx(x+1, y+3);
+    SetPx(x+3, y+3);
+    SetPx(x+2, y+4);
 }
 
+void DrawB(unsigned char x, unsigned char y)
+{
+
+		SetPx(x+0,y+2); SetPx(x+0,y+4);
+		SetPx(x+7,y+3); SetPx(x+7,y+5);
+		SetPx(x+2,y+0); SetPx(x+4,y+0);
+		SetPx(x+3,y+7); SetPx(x+5,y+7);
+		SetPx(x+0,y+3); SetPx(x+0,y+5);
+		SetPx(x+3,y+0); SetPx(x+7,y+2);
+		SetPx(x+4,y+7); SetPx(x+5,y+0);
+		SetPx(x+7,y+4); SetPx(x+3,y+0);
+		SetPx(x+5,y+0); SetPx(x+2,y+7);
+		SetPx(x+4,y+7);
+	}
 
 
 
@@ -152,7 +241,7 @@ void DrawFood(unsigned char x, unsigned char y)
 	SetPx(x+5,y+1); SetPx(x+5,y+3); SetPx(x+5,y+5); SetPx(x+5,y+7); // 5
 }*/
 
-void DrawBall(unsigned char x, unsigned char y, unsigned char p1)
+/*void DrawBall(unsigned char x, unsigned char y, unsigned char p1)
 {
 	if (p1 > 3)
 	{
@@ -200,9 +289,9 @@ void DrawBall(unsigned char x, unsigned char y, unsigned char p1)
 	SetPx(x+4,y+3); SetPx(x+4,y+4);
 	 
 	
-}
+}*/
 
-void DrawTrigger(unsigned char x, unsigned char y)
+/*void DrawTrigger(unsigned char x, unsigned char y)
 {
 	SetPx(x+0,y+2); SetPx(x+0,y+4); //0
 	SetPx(x+7,y+3); SetPx(x+7,y+5); //7
@@ -216,9 +305,9 @@ void DrawTrigger(unsigned char x, unsigned char y)
 	SetPx(x+0,y+3); SetPx(x+0,y+5); SetPx(x+1,y+6); SetPx(x+2,y+7);
 	SetPx(x+3,y+0); SetPx(x+4,y+7); SetPx(x+5,y+0); SetPx(x+6,y+1);
 	SetPx(x+7,y+2); SetPx(x+7,y+4);
-}
+}*/
 
-void DrawHorWall(unsigned char y, unsigned char x_start, unsigned char x_end)
+/*void DrawHorWall(unsigned char y, unsigned char x_start, unsigned char x_end)
 {
 	unsigned char i, j;
 	for (i = x_start; i <= x_end; i++)
@@ -231,9 +320,9 @@ void DrawHorWall(unsigned char y, unsigned char x_start, unsigned char x_end)
 
 	SetPx(x_start,y+1);
 	SetPx(x_end,y+1);
-}
+}*/
 
-void DrawVerWall(unsigned char x, unsigned char y_start, unsigned char y_end)
+/*void DrawVerWall(unsigned char x, unsigned char y_start, unsigned char y_end)
 {
 	unsigned char i, j;
 	for (i = y_start; i <= y_end; i++)
@@ -246,17 +335,17 @@ void DrawVerWall(unsigned char x, unsigned char y_start, unsigned char y_end)
 
 	SetPx(x+1,y_start);
 	SetPx(x+1,y_end);
-}
+}*/
 
-void DrawWall(struct graphWall g)
+/*void DrawWall(struct graphWall g)
 {
 	if (g.orientation == 0)
 		DrawHorWall(g.c, g.c2_start, g.c2_end);
 	else
 		DrawVerWall(g.c, g.c2_start, g.c2_end);
-}
+}*/
 
-void DrawScene()
+/*void DrawScene()
 {
 	unsigned char i;
 	// Clear the scene
@@ -336,9 +425,17 @@ void DrawScene()
 
 		
 		
-	}
+	}*/
 
-	//DrawSphere(10, 64,32);
+void DrawScene()
+{
+	unsigned char i;
+	// Clear the scene
+	Fill(0x00);
+
+DrawFood(64, 32);
+DrawSnake (55, 20);
+
 
 	// Send all data to screen driver
 	FlushGraphics();

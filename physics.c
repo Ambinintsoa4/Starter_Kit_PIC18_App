@@ -14,6 +14,8 @@ signed short int g_devAccOffsetY = 0;
 signed short int g_devAccOffsetZ = 0;
 
 float g_ballX, g_ballY, g_ballZ;
+float g_foodX, g_foodY;
+
 float g_ballVelX, g_ballVelY, g_ballVelZ;
 float g_ballForceX, g_ballForceY, g_ballForceZ;
 float g_ballMass;
@@ -245,7 +247,8 @@ for (i = 0; i < g_usedWalls; i++)
 
 void InitPhysics()
 {
-	g_ballX = 64; g_ballY = 32; g_ballZ = 0;
+	//g_ballX = 64; g_ballY = 32; g_ballZ = 0;
+	g_foodX = 64, g_foodY = 32;
 	g_ballVelX = g_ballVelY = g_ballVelZ = 0;
 	g_ballForceX = g_ballForceY = g_ballForceZ = 0;
 	g_ballMass = 0.5f;		

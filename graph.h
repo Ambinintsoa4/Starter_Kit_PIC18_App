@@ -10,6 +10,15 @@ extern unsigned char g_graphBuffer[128][8];
 extern unsigned char * g_graphBufPtr;// = &g_graphBuffer[0];
 
 #define SetPx(x,y) g_graphBufPtr[x+(y >> 3)*128] |= (0x01 << (y&0x07))
+/*#define SetPx(x, y, r, g, b) \
+do { \
+    unsigned int index = (x) + ((y) >> 3) * 128; \
+    unsigned char bitPos = (y) & 0x07; \
+    unsigned char bitMask = 1 << bitPos; \
+    g_graphBufPtr[index] &= ~bitMask; \
+    g_graphBufPtr[index] |= ((r & 0x01) << 2) | ((g & 0x01) << 1) | (b & 0x01); \
+} while(0)*/
+
 
 struct graphWall {
 	unsigned char c;
