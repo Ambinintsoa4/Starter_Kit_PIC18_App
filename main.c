@@ -631,7 +631,7 @@ void DemoIntroduction(void)
 			DemoIntroState = 6;
 			FillDisplay(0x00);
 			g_level = 0;
-			g_ballGtt = 0;
+			g_planeGtt = 0;
 			break;
 
 		case 9:
@@ -866,7 +866,7 @@ void ProcessIO(void)
     {
 	    //BL_CheckLoaderEnabled();
 		
-		if (g_ballGth == 0 && g_ballGtt == 0)
+		if (g_planeGth == 0 && g_planeGtt == 0)
 			Step(0.04f, 1);
 		else
 			Step(0.04f, 0);

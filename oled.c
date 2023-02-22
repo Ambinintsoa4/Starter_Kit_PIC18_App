@@ -52,6 +52,10 @@
 #define	oledD_C			LATBbits.LATB5
 #define	oledD_C_TRIS	TRISBbits.TRISB5
 
+// OLED size
+signed short int OLEDX=128;
+signed short int OLEDY=64;
+
 // Color
 BYTE    _color;
 // Clipping region control

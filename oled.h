@@ -42,6 +42,10 @@
 #include "GenericTypeDefs.h"
 /*********************************************/
 
+// OLED size
+extern signed short int OLEDX;
+extern signed short int OLEDY;
+
 void WriteCommand(BYTE cmd);
 void WriteData(BYTE data);
 void FillDisplay(unsigned char data);

@@ -5,6 +5,7 @@
 #include "graph.h"
 #include "levels.h"
 
+struct Food food;
 struct graphWall g_walls[MAX_WALLS];
 struct physWall g_physWalls[MAX_WALLS];
 struct physWallMover g_physWallMovers[MAX_WALLS_MOVERS];
@@ -36,11 +37,11 @@ void _generatePhysWalls()
 
 void resetBall(unsigned char x, unsigned char y)
 {
-	g_ballX = x;
-	g_ballY = y;
-	g_ballZ = 0;
-	g_ballVelX = g_ballVelY = g_ballVelZ = 0;
-	g_ballForceX = g_ballForceY = g_ballForceZ = 0;
+	g_planeX = x;
+	g_planeY = y;
+	g_planeZ = 0;
+	g_planeVelX = g_planeVelY = g_planeVelZ = 0;
+	g_planeForceX = g_planeForceY = g_planeForceZ = 0;
 }
 
 void level0()

@@ -19,6 +19,9 @@ do { \
     g_graphBufPtr[index] |= ((r & 0x01) << 2) | ((g & 0x01) << 1) | (b & 0x01); \
 } while(0)*/
 
+struct Food {
+	unsigned char x,y;
+};
 
 struct graphWall {
 	unsigned char c;
