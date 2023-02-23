@@ -6,6 +6,9 @@
 #include "levels.h"
 
 struct Food food;
+struct Meteorite meteorite;
+struct Meteorite meteorite2;
+
 struct graphWall g_walls[MAX_WALLS];
 struct physWall g_physWalls[MAX_WALLS];
 struct physWallMover g_physWallMovers[MAX_WALLS_MOVERS];
@@ -46,136 +49,18 @@ void resetBall(unsigned char x, unsigned char y)
 
 void level0()
 {
-	//0
-	//g_usedWalls = 2;
-	g_usedWalls = 0;
-	g_usedHoles = 0;
-	g_usedWallMovers = 0;
-
-	g_levelEndX = 10; g_levelEndY = 7;
-
-	resetBall(110,52);
-
-	/*g_walls[0].orientation = HORIZONTAL;
-	g_walls[0].c = 20;
-	g_walls[0].c2_start = 0;
-	g_walls[0].c2_end = 70;	
-
-	g_walls[1].orientation = HORIZONTAL;
-	g_walls[1].c = 40;
-	g_walls[1].c2_start = 40;
-	g_walls[1].c2_end = 128;*/
+	//CoefMeteoriteVelX=1;
+  	//CoefMeteorite2VelX=1;
+	//deltaY=0;
 }
 
 void level1()
 {
-	// 1
-	g_usedWalls = 2;
-	g_usedHoles = 6;
-	g_usedWallMovers = 0;
-
-	g_levelEndX = 7; g_levelEndY = 7;
-
-	resetBall(110,49);
-
-	g_walls[0].orientation = HORIZONTAL;
-	g_walls[0].c = 31;
-	g_walls[0].c2_start = 40;
-	g_walls[0].c2_end = 87;
-
-	g_walls[1].orientation = VERTICAL;
-	g_walls[1].c = 61;
-	g_walls[1].c2_start = 26;
-	g_walls[1].c2_end = 38;
-
-	g_holes[0].x = 58;
-	g_holes[0].y = 7;
-
-	g_holes[1].x = 58;
-	g_holes[1].y = 49;
-
-	g_holes[2].x = 110;
-	g_holes[2].y = 28;
-
-	g_holes[3].x = 7;
-	g_holes[3].y = 28;
-
-	g_holes[4].x = 110;
-	g_holes[4].y = 7;
-
-	g_holes[5].x = 7;
-	g_holes[5].y = 49;
 }
 
 void level2()
 {
-	// 2
-	g_usedWalls = 10;
-	g_usedHoles = 3;
-	g_usedWallMovers = 0;
-
-	g_levelEndX = 7; g_levelEndY = 49;
-
-	resetBall(110,7);
-
-	g_walls[0].orientation = HORIZONTAL;
-	g_walls[0].c = 20;
-	g_walls[0].c2_start = 30;
-	g_walls[0].c2_end = 127;
-
-	g_walls[1].orientation = HORIZONTAL;
-	g_walls[1].c = 40;
-	g_walls[1].c2_start = 0;
-	g_walls[1].c2_end = 97;
-
-	g_walls[2].orientation = HORIZONTAL;
-	g_walls[2].c = 18;
-	g_walls[2].c2_start = 77;
-	g_walls[2].c2_end = 97;
-
-	g_walls[3].orientation = HORIZONTAL;
-	g_walls[3].c = 16;
-	g_walls[3].c2_start = 77;
-	g_walls[3].c2_end = 97;
-
-	g_walls[4].orientation = HORIZONTAL;
-	g_walls[4].c = 2;
-	g_walls[4].c2_start = 47;
-	g_walls[4].c2_end = 67;
 	
-	g_walls[5].orientation = HORIZONTAL;
-	g_walls[5].c = 4;
-	g_walls[5].c2_start = 47;
-	g_walls[5].c2_end = 67;
-
-	g_walls[6].orientation = HORIZONTAL;
-	g_walls[6].c = 38;
-	g_walls[6].c2_start = 57;
-	g_walls[6].c2_end = 77;
-	
-	g_walls[7].orientation = HORIZONTAL;
-	g_walls[7].c = 36;
-	g_walls[7].c2_start = 57;
-	g_walls[7].c2_end = 77;
-
-	g_walls[8].orientation = HORIZONTAL;
-	g_walls[8].c = 22;
-	g_walls[8].c2_start = 107;
-	g_walls[8].c2_end = 127;
-	
-	g_walls[9].orientation = HORIZONTAL;
-	g_walls[9].c = 24;
-	g_walls[9].c2_start = 107;
-	g_walls[9].c2_end = 127;
-
-	g_holes[0].x = 7;
-	g_holes[0].y = 7;
-
-	g_holes[1].x = 110;
-	g_holes[1].y = 49;
-
-	g_holes[2].x = 7;
-	g_holes[2].y = 25;
 }
 
 void level3()

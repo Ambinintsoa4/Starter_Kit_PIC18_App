@@ -23,6 +23,10 @@ struct Food {
 	unsigned char x,y;
 };
 
+struct Meteorite {
+	unsigned char x,y;
+};
+
 struct graphWall {
 	unsigned char c;
 	unsigned char c2_start, c2_end;

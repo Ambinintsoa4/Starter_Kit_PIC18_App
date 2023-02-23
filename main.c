@@ -180,6 +180,8 @@ void UserInit(void);
 void DemoIntroduction(void);
 BOOL CheckButtonPressed(void);
 
+void WriteGameOver(void);
+
 SCROLL_WHEEL_DIRECTION GetScrollDirection();
 //void ReadAccState();
 void SelectLevel();
@@ -356,7 +358,8 @@ void main(void)
 
 		// Application-specific tasks.
 		// Application related code may be added here, or in the ProcessIO() function.
-        ProcessIO();        
+        ProcessIO();  
+      
     }//end while
 }//end main
 
@@ -525,7 +528,7 @@ void DemoIntroduction(void)
             ResetDevice();  
         
             FillDisplay(0x00);
-            oledPutROMString((ROM_STRING)"   Snake Game v1.0   ",0,0);
+            oledPutROMString((ROM_STRING)"   Allien Game v1.0   ",0,0);
 			oledPutROMString((ROM_STRING)"                     ",1,0);
             oledPutROMString((ROM_STRING)"  by Marie Vololonjo  ",2,0);
 			oledPutROMString((ROM_STRING)"                     ",3,0);
@@ -547,7 +550,7 @@ void DemoIntroduction(void)
             oledPutROMString((ROM_STRING)" 1. Use scroll to    ",0,0);
             oledPutROMString((ROM_STRING)" select menu items.  ",1,0);
             oledPutROMString((ROM_STRING)" 2. Tilt the board   ",2,0);
-            oledPutROMString((ROM_STRING)" to move the ball.   ",3,0);
+            oledPutROMString((ROM_STRING)" to move the plane   ",3,0);
             oledPutROMString((ROM_STRING)" 3. Have a good time.",4,0);
             oledPutROMString((ROM_STRING)"                     ",5,0);
             oledPutROMString((ROM_STRING)"Press Menu to proceed",6,0);
@@ -575,7 +578,7 @@ void DemoIntroduction(void)
 					g_menuSelected ++;
 			}		
 
-            oledPutROMString((ROM_STRING)"   LABIRYNTH  MENU   ",0,0);
+            oledPutROMString((ROM_STRING)"   ALLIEN GAME MENU   ",0,0);
             oledPutROMString(empty_line,1,0);
 
 			if (g_menuSelected == 0)
@@ -641,6 +644,12 @@ void DemoIntroduction(void)
         default:
             break;
     }
+}
+
+void WriteGameOver(void)
+{
+	//	FillDisplay(0x00);
+        oledPutROMString((ROM_STRING)"      GAME OVER    ",3,0);
 }
 
 BOOL CheckButtonPressed(void)
@@ -867,9 +876,15 @@ void ProcessIO(void)
 	    //BL_CheckLoaderEnabled();
 		
 		if (g_planeGth == 0 && g_planeGtt == 0)
+		{
 			Step(0.04f, 1);
+			Meteorite_Rain(0.5f, 1);
+		}
 		else
+{
 			Step(0.04f, 0);
+			Meteorite_Rain(0.5f, 0);
+}
 		DrawScene();
 
 		if (g_endGame == 1)

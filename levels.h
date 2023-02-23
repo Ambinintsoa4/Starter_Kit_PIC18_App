@@ -12,6 +12,9 @@
 
 #ifndef LEVELS_C
 	extern struct Food food;
+	extern struct Meteorite meteorite;
+	extern struct Meteorite meteorite2;
+
     extern struct graphWall g_walls[MAX_WALLS];
     extern struct physWall g_physWalls[MAX_WALLS];
     extern struct Hole g_holes[MAX_HOLES];

@@ -95,6 +95,13 @@ void DrawFood(unsigned char x, unsigned char y)
 						SetPx(x+3,y+10); SetPx(x+4,y+10); 
 	
 }
+void DrawMeteorite(unsigned char x, unsigned char y)
+{ 
+						SetPx(x+1,y); SetPx(x+2,y); SetPx(x+3,y); SetPx(x+4,y);
+						SetPx(x+1,y+1); SetPx(x+2,y+1); SetPx(x+3,y+1); SetPx(x+4,y+1);
+
+}
+
 
 
 void DrawPlane(unsigned char x, unsigned char y)
@@ -135,26 +142,6 @@ void DrawCircle(unsigned char x, unsigned char y)
 	SetPx(x+7,y+2); SetPx(x+7,y+4);
 }
 
-
-
-
-
-
-/*void DrawTrigger(unsigned char x, unsigned char y)
-{
-	SetPx(x+0,y+2); SetPx(x+0,y+4); //0
-	SetPx(x+7,y+3); SetPx(x+7,y+5); //7
-	SetPx(x+1,y+1); SetPx(x+1,y+3); SetPx(x+1,y+5); //1
-	SetPx(x+6,y+2); SetPx(x+6,y+4); SetPx(x+6,y+6); //6
-	SetPx(x+2,y+0); SetPx(x+2,y+2); SetPx(x+2,y+4); SetPx(x+2,y+6); // 2
-	SetPx(x+4,y+0); SetPx(x+4,y+2); SetPx(x+4,y+4); SetPx(x+4,y+6); // 4
-	SetPx(x+3,y+1); SetPx(x+3,y+3); SetPx(x+3,y+5); SetPx(x+3,y+7); // 3
-	SetPx(x+5,y+1); SetPx(x+5,y+3); SetPx(x+5,y+5); SetPx(x+5,y+7); // 5
-
-	SetPx(x+0,y+3); SetPx(x+0,y+5); SetPx(x+1,y+6); SetPx(x+2,y+7);
-	SetPx(x+3,y+0); SetPx(x+4,y+7); SetPx(x+5,y+0); SetPx(x+6,y+1);
-	SetPx(x+7,y+2); SetPx(x+7,y+4);
-}*/
 
 void DrawHorWall(unsigned char y, unsigned char x_start, unsigned char x_end)
 {
@@ -279,17 +266,30 @@ void DrawVerWall(unsigned char x, unsigned char y_start, unsigned char y_end)
 void DrawScene()
 {
 	unsigned char i;
-	// Clear the scene
+
+
+if(flag == 0){
+// Clear the scene
 	Fill(0x00);
-
-
-	DrawFood(120, 12);
-	DrawFood(120, 42);
 //  DrawPlane (55, 20);
-//	DrawFood(food.x, food.y);
+	DrawFood(food.x, food.y);
+	DrawFood(food.x, food.y + 40);
+
+//	DrawMeteorite(food.x - 5, food.y + 3);
+	DrawMeteorite( (meteorite.x), food.y );
+	DrawMeteorite( meteorite2.x, food.y + 40);
 	DrawPlane ((unsigned char)g_planeX, (unsigned char)g_planeY);
+}
 
+	else if(flag == 1)
+{		Fill(0x00);
+		WriteGameOver();
+   		if(CheckButtonPressed() == TRUE)
+            {
+                DemoIntroduction();
+            }
 
+}
 	// Send all data to screen driver
 	FlushGraphics();
 }

@@ -19,6 +19,28 @@ signed short int g_devAccOffsetZ = 0;
 
 float g_foodX, g_foodY;
 
+signed short int CoefMeteoriteVelX;
+signed short int CoefMeteorite2VelX;
+
+int MeteoriteBaseX, Meteorite2BaseX, MeteoriteBaseY, Meteorite2BaseY; // Position of the base of the meteorite in X,Y
+signed short float MeteoriteVelX;// Velocity of the velocity in X
+float MeteoriteAccX=9.81f;// Acceleration of the meteorite in X (gravity)
+float MeteoriteMass=0.5f;// Mass of the meteorite (500g)
+
+int Meteorite2BaseX, Meteorite2BaseY; // Position of the base of the meteorite in X,Y
+signed short float Meteorite2VelX;// Velocity of the velocity in X
+float Meteorite2AccX=9.81f;// Acceleration of the meteorite in X (gravity)
+float Meteorite2Mass=0.5f;// Mass of the meteorite (500g)
+
+signed short int deltaX;// Displacement in X of the meteorite during a time interval dt
+signed short int deltaY;// Displacement in Y of the meteorite during a time interval dt
+
+signed short int deltaX2;// Displacement in X of the meteorite during a time interval dt
+signed short int deltaY2;// Displacement in Y of the meteorite during a time interval dt
+
+int DX,DX2,DY,DY2;// Relative distance between plane and meteorite in X,Y
+int DX2WIN,DY2WIN;// Relative distance between plane and meteorite in X,Y to win
+
 int planeHeadX,planeHeadY;// plane's head position in X,Y
 float g_planeX, g_planeY, g_planeZ;
 float g_planeVelX, g_planeVelY, g_planeVelZ;
@@ -27,15 +49,8 @@ float g_planeForceX, g_planeForceY, g_planeForceZ;
 
 unsigned char g_planeGth = 0;
 unsigned char g_planeGtt = 0;
+unsigned char flag = 0;
 
-
-/*float g_ballX, g_ballY, g_ballZ;
-float g_ballVelX, g_ballVelY, g_ballVelZ;
-float g_ballForceX, g_ballForceY, g_ballForceZ;
-float g_ballMass;
-unsigned char g_ballGth = 0;
-unsigned char g_ballGtt = 0;
-*/
 unsigned char g_colDirs = 0; //0000.x1 x2 y1 y2;
 
 //rom unsigned char sin100_tab[32] = {0, 9, 19, 29, 38, 47, 56, 64, 71, 78, 84, 89, 93, 96, 98, 99, 99, 99, 97, 94, 90, 86, 80, 74, 67, 59, 51, 42, 33, 23, 14, 4};
@@ -168,13 +183,96 @@ void Step(float dtime, unsigned char animPlane)
 
 void InitPhysics()
 {
-	//food.x = rand() % OLEDX-8;
-	//food.y = rand() % OLEDY-8;
 	g_planeX = 64, g_planeY = 32;
 	g_planeVelX = g_planeVelY= g_planeVelZ = 0;
 	g_planeForceX = g_planeForceY = g_planeForceZ = 0;
-	g_planeMass = 0.5f;		
+	g_planeMass = 0.5f;	
+
+	//Food = Vaisseau spatiale
+	food.x = 120;
+	food.y = 12;
+	
+	// Meteorite 1
+	MeteoriteVelX=1.0f;
+	MeteoriteAccX=9.81f;
+	MeteoriteMass=0.5f;
+
+	// Meteorite 2
+	Meteorite2VelX=0.5f;
+	Meteorite2AccX=9.81f;
+	Meteorite2Mass=0.5f;
+	g_planeGth = 0;
+	g_planeGtt = 0;
+	deltaY=0;	
+
 }
+int abs(int x)
+{
+	int absx=x;
+	if (x<0)
+	{
+		absx=-x;
+	}
+	return (absx);
+}
+
+void Meteorite_Rain(float dtime, unsigned char animBall)
+{
+	CoefMeteoriteVelX=0;
+	CoefMeteorite2VelX=1;
+
+	MeteoriteVelX*=(float)CoefMeteoriteVelX;	
+	Meteorite2VelX*=(float)CoefMeteorite2VelX;
+
+	if (animBall)
+
+	{	// Free fall theory meteorite 1 
+	deltaX=(int)((MeteoriteVelX*dtime)+((MeteoriteAccX*dtime*dtime)/2.0f));
+	meteorite.x-= deltaX ;
+	MeteoriteVelX=1.0f;
+
+		// Free fall theory meteorite 2 
+	deltaX2=(int)((Meteorite2VelX*dtime)+(Meteorite2AccX*dtime*dtime) / 2.0f);
+	meteorite2.x-= deltaX;
+	Meteorite2VelX=0.5f;
+	
+
+	MeteoriteBaseX=meteorite.x;
+	Meteorite2BaseX=meteorite2.x;
+
+	MeteoriteBaseY=food.y;
+	Meteorite2BaseY=food.y + 40;
+
+	DX = distance( MeteoriteBaseX, g_planeX);
+	DX2 = distance( Meteorite2BaseX, g_planeX);
+	DY = distance( MeteoriteBaseY, g_planeY);
+	DY2 = distance( Meteorite2BaseY, g_planeY);
+
+
+if (IsCollid(DX, DY) == TRUE || IsCollid(DX2, DY2)== TRUE)
+		{
+		 	flag = 1;
+		}
+}
+	return;
+}
+
+BOOL IsCollid(int x, int y){
+	DX2WIN=1;
+	DY2WIN=3;
+
+	if(x<=DX2WIN && y<=DY2WIN)
+	{
+		return TRUE;
+	} 
+		return FALSE;
+}
+
+int distance(int a, int b) {
+	return abs(a - b);
+}
+
+
 
 
 

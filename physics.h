@@ -1,3 +1,4 @@
+#include "GenericTypeDefs.h"
 #ifndef _PHYSICS_H
 #define _PHYSICS_H
 
@@ -9,11 +10,24 @@ extern signed short int g_devAccOffsetX;
 extern signed short int g_devAccOffsetY;
 extern signed short int g_devAccOffsetZ;
 
-/*extern float g_ballX, g_ballY, g_ballZ;
-extern float g_ballVelX, g_ballVelY, g_ballVelZ;
-extern float g_ballForceX, g_ballForceY, g_ballForceZ;
-extern unsigned char g_ballGth;
-extern unsigned char g_ballGtt;*/
+extern signed short int CoefMeteoriteVelX;
+extern int MeteoriteBaseX, Meteorite2BaseX, MeteoriteBaseY, Meteorite2BaseY;
+extern signed short float MeteoriteVelX; // Velocity of the Meteorite in X
+extern float MeteoriteAccX;// Acceleration of the Meteorite in X (gravity) float MeteoriteAccX=9.81f;// Acceleration of the Meteorite in X (gravity)
+extern float MeteoriteMass;// Mass of the Meteorite (500g)
+extern signed short int deltaX;// Displacement in X of the Meteorite during a time interval dt
+extern signed short int deltaY;// Displacement in Y of the Meteorite during a time interval dt
+
+extern int DX,DX2,DY,DY2;
+
+extern signed short int CoefMeteorite2VelX;
+extern int Meteorite2BaseX, Meteorite2BaseY;
+extern signed short float Meteorite2VelX; // Velocity of the Meteorite in X
+extern float Meteorite2AccX;// Acceleration of the Meteorite in X (gravity) float MeteoriteAccX=9.81f;// Acceleration of the Meteorite in X (gravity)
+extern float Meteorite2Mass;// Mass of the Meteorite (500g)
+extern signed short int deltaX2;// Displacement in X of the Meteorite during a time interval dt
+extern signed short int deltaY2;// Displacement in Y of the Meteorite during a time interval dt
+
 
 extern int planeX,planeY;
 extern float g_planeX, g_planeY, g_planeZ;
@@ -22,7 +36,7 @@ extern float g_planeVelX, g_planeVelY, g_planeVelZ;
 extern float g_planeForceX, g_planeForceY, g_planeForceZ;
 extern unsigned char g_planeGth;
 extern unsigned char g_planeGtt;
-
+extern unsigned char flag;
 
 struct physWall{
 	signed short int Ax,Bx,Ay, By;
@@ -39,6 +53,8 @@ struct physWallMover
 
 void ReadAccState();
 void Step(float dtime, unsigned char animBall);
+void Meteorite_Rain(float dtime, unsigned char animBall);
 void InitPhysics();
-
+BOOL IsCollid(int x, int y);
+int distance(int a, int b);
 #endif
