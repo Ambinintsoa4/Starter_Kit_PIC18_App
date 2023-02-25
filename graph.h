@@ -38,6 +38,10 @@ struct Hole {
 };
 
 void DrawBall(unsigned char x, unsigned char y, unsigned char p1);
+void DrawSpaceship(unsigned char x, unsigned char y);
+void DrawMeteorite(unsigned char x, unsigned char y);
+void DrawPlane(unsigned char x, unsigned char y);
+
 void DrawScene();
 void Fill(unsigned char clr);
 
