@@ -286,7 +286,7 @@ else if(flag == 1){
 }
 else if (flag == 2){
 	Fill(0x00);
-	DrawCircle(55, 20);
+	WriteCongrats();
 } 
 
 

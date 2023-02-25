@@ -1,5 +1,5 @@
 MPLINK 4.31, Linker
-Linker Map File - Created Sat Feb 25 14:43:20 2023
+Linker Map File - Created Sat Feb 25 20:32:55 2023
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -25,52 +25,52 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x00a018    program   0x000006
                    .cinit    romdata   0x00a01e    program   0x00004a
           .code_physics.o       code   0x00a068    program   0x000c34
          .code_vfprintf.o       code   0x00ac9c    program   0x000c22
-            .code_graph.o       code   0x00b8be    program   0x000b72
-             .code_main.o       code   0x00c430    program   0x0009fa
-                     PROG       code   0x00ce2a    program   0x000634
-             .code_oled.o       code   0x00d45e    program   0x00045e
-           .code_levels.o       code   0x00d8bc    program   0x000314
-           .code_BMA150.o       code   0x00dbd0    program   0x000274
-             .stringtable    romdata   0x00de44    program   0x00023e
-           .code_mtouch.o       code   0x00e082    program   0x0001e4
-          .romdata_oled.o    romdata   0x00e266    program   0x0001db
-           graph_buffer_i    romdata   0x00e441    program   0x000000
-        .romdata___init.o    romdata   0x00e441    program   0x000000
-      .idata_vfprintf.o_i    romdata   0x00e441    program   0x000000
-          .romdata_main.o    romdata   0x00e441    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x00e441    program   0x000000
-         .romdata_c018i.o    romdata   0x00e441    program   0x000000
-    .romdata_soft_start.o    romdata   0x00e441    program   0x000000
-    .idata_soft_start.o_i    romdata   0x00e441    program   0x000001
-       .romdata_physics.o    romdata   0x00e441    program   0x000000
-         .romdata_graph.o    romdata   0x00e441    program   0x000000
-       .code_soft_start.o       code   0x00e442    program   0x0000f0
-          .code_sprintf.o       code   0x00e532    program   0x0000ac
-               _cinit_scn       code   0x00e5de    program   0x00009e
-             .code_putc.o       code   0x00e67c    program   0x000084
-          .code_fxm3232.o       code   0x00e700    program   0x000070
-                   STRING       code   0x00e770    program   0x000066
-         .code_fxd3232u.o       code   0x00e7d6    program   0x000048
-         .code_fxd1616u.o       code   0x00e81e    program   0x00002c
-                    CTYPE       code   0x00e84a    program   0x000024
-             _startup_scn       code   0x00e86e    program   0x00001c
-                    STDIO       code   0x00e88a    program   0x00001c
-      .romdata_vfprintf.o    romdata   0x00e8a6    program   0x000011
-          .romdata_putc.o    romdata   0x00e8b7    program   0x000000
-          .idata_putc.o_i    romdata   0x00e8b7    program   0x000000
-        .romdata_BMA150.o    romdata   0x00e8b7    program   0x000000
-        .idata_mtouch.o_i    romdata   0x00e8b7    program   0x000000
-       .romdata_fxm3232.o    romdata   0x00e8b7    program   0x000000
-        .romdata_mtouch.o    romdata   0x00e8b7    program   0x000000
-        .romdata_levels.o    romdata   0x00e8b7    program   0x000000
-    .romdata__user_putc.o    romdata   0x00e8b7    program   0x000000
-       .romdata_sprintf.o    romdata   0x00e8b7    program   0x000000
-       .idata_sprintf.o_i    romdata   0x00e8b7    program   0x000000
-        .idata_levels.o_i    romdata   0x00e8b7    program   0x000001
-      .romdata_fxd1616u.o    romdata   0x00e8b7    program   0x000000
-                    .code       code   0x00e8b8    program   0x00000e
-       .idata_physics.o_i    romdata   0x00e8c6    program   0x000026
-          .idata_main.o_i    romdata   0x00e8ec    program   0x000016
+            .code_graph.o       code   0x00b8be    program   0x000b6c
+             .code_main.o       code   0x00c42a    program   0x000a66
+                     PROG       code   0x00ce90    program   0x000634
+             .code_oled.o       code   0x00d4c4    program   0x00045e
+           .code_levels.o       code   0x00d922    program   0x000314
+           .code_BMA150.o       code   0x00dc36    program   0x000274
+             .stringtable    romdata   0x00deaa    program   0x00023e
+           .code_mtouch.o       code   0x00e0e8    program   0x0001e4
+          .romdata_oled.o    romdata   0x00e2cc    program   0x0001db
+           graph_buffer_i    romdata   0x00e4a7    program   0x000000
+        .romdata___init.o    romdata   0x00e4a7    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x00e4a7    program   0x000000
+          .romdata_main.o    romdata   0x00e4a7    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x00e4a7    program   0x000000
+         .romdata_c018i.o    romdata   0x00e4a7    program   0x000000
+    .romdata_soft_start.o    romdata   0x00e4a7    program   0x000000
+    .idata_soft_start.o_i    romdata   0x00e4a7    program   0x000001
+       .romdata_physics.o    romdata   0x00e4a7    program   0x000000
+         .romdata_graph.o    romdata   0x00e4a7    program   0x000000
+       .code_soft_start.o       code   0x00e4a8    program   0x0000f0
+          .code_sprintf.o       code   0x00e598    program   0x0000ac
+               _cinit_scn       code   0x00e644    program   0x00009e
+             .code_putc.o       code   0x00e6e2    program   0x000084
+          .code_fxm3232.o       code   0x00e766    program   0x000070
+                   STRING       code   0x00e7d6    program   0x000066
+         .code_fxd3232u.o       code   0x00e83c    program   0x000048
+         .code_fxd1616u.o       code   0x00e884    program   0x00002c
+                    CTYPE       code   0x00e8b0    program   0x000024
+             _startup_scn       code   0x00e8d4    program   0x00001c
+                    STDIO       code   0x00e8f0    program   0x00001c
+      .romdata_vfprintf.o    romdata   0x00e90c    program   0x000011
+          .romdata_putc.o    romdata   0x00e91d    program   0x000000
+          .idata_putc.o_i    romdata   0x00e91d    program   0x000000
+        .romdata_BMA150.o    romdata   0x00e91d    program   0x000000
+        .idata_mtouch.o_i    romdata   0x00e91d    program   0x000000
+       .romdata_fxm3232.o    romdata   0x00e91d    program   0x000000
+        .romdata_mtouch.o    romdata   0x00e91d    program   0x000000
+        .romdata_levels.o    romdata   0x00e91d    program   0x000000
+    .romdata__user_putc.o    romdata   0x00e91d    program   0x000000
+       .romdata_sprintf.o    romdata   0x00e91d    program   0x000000
+       .idata_sprintf.o_i    romdata   0x00e91d    program   0x000000
+        .idata_levels.o_i    romdata   0x00e91d    program   0x000001
+      .romdata_fxd1616u.o    romdata   0x00e91d    program   0x000000
+                    .code       code   0x00e91e    program   0x00000e
+       .idata_physics.o_i    romdata   0x00e92c    program   0x000026
+          .idata_main.o_i    romdata   0x00e952    program   0x000016
       .config_fff8_main.o    romdata   0x00fff8    program   0x000001
       .config_fff9_main.o    romdata   0x00fff9    program   0x000001
       .config_fffa_main.o    romdata   0x00fffa    program   0x000001
@@ -139,29 +139,29 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x00a018    program   0x000006
                             0x000008    0x00000d      
                             0x000018    0x00001d      
                             0x00a000    0x00a015      
-                            0x00a018    0x00e901      
+                            0x00a018    0x00e967      
                             0x00fff8    0x00ffff      
-            18714 out of 64523 program addresses used, program memory utilization is 29%
+            18816 out of 64523 program addresses used, program memory utilization is 29%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-          AppPowerDisable   0x00e48e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
-           AppPowerEnable   0x00e442    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
-            AppPowerReady   0x00e49a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
-          BMA150_ReadByte   0x00dd96    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
-         BMA150_WriteByte   0x00dcb4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
-             CalibrateAcc   0x00c49c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-       CheckButtonPressed   0x00cb98    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   D1616S   0x00d146    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x00d154    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x00d150    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x00d166    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x00d136    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                  DelayMs   0x00d45e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-         DemoIntroduction   0x00c6f4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+          AppPowerDisable   0x00e4f4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
+           AppPowerEnable   0x00e4a8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
+            AppPowerReady   0x00e500    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
+          BMA150_ReadByte   0x00ddfc    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
+         BMA150_WriteByte   0x00dd1a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
+             CalibrateAcc   0x00c498    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+       CheckButtonPressed   0x00cbf4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   D1616S   0x00d1ac    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x00d1ba    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x00d1b6    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x00d1cc    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x00d19c    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                  DelayMs   0x00d4c4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+         DemoIntroduction   0x00c6f8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                DrawCircle   0x00be82    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
               DrawHorWall   0x00c020    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
             DrawMeteorite   0x00bc3c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
@@ -169,129 +169,130 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x00a018    program   0x000006
                 DrawScene   0x00c108    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
             DrawSpaceship   0x00ba7c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
               DrawVerWall   0x00c09a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                 FLO0832S   0x00ce2e    program     extern C:\MCC18\src\traditional\math\cast08FP.asm
-                 FLO0832U   0x00ce2a    program     extern C:\MCC18\src\traditional\math\cast08FP.asm
-                 FLO1632S   0x00ce50    program     extern C:\MCC18\src\traditional\math\cast16FP.asm
-                 FLO1632U   0x00ce4c    program     extern C:\MCC18\src\traditional\math\cast16FP.asm
-                    FPA32   0x00ce78    program     extern C:\MCC18\src\traditional\math\addFP.asm
-                    FPD32   0x00cfa4    program     extern C:\MCC18\src\traditional\math\divFP.asm
-                    FPM32   0x00d04a    program     extern C:\MCC18\src\traditional\math\mulFP.asm
-                    FPS32   0x00ce76    program     extern C:\MCC18\src\traditional\math\addFP.asm
-                 FXD1616S   0x00d124    program     extern C:\MCC18\src\traditional\math\fxd1616s.asm
-                 FXD1616U   0x00e81e    program     extern C:\MCC18\src\traditional\math\fxd1616u.c
-                 FXD3232U   0x00e7d6    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
-                 FXM1616S   0x00d170    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
-                  FXM3232   0x00e700    program     extern C:\MCC18\src\traditional\math\fxm3232.c
+                 FLO0832S   0x00ce94    program     extern C:\MCC18\src\traditional\math\cast08FP.asm
+                 FLO0832U   0x00ce90    program     extern C:\MCC18\src\traditional\math\cast08FP.asm
+                 FLO1632S   0x00ceb6    program     extern C:\MCC18\src\traditional\math\cast16FP.asm
+                 FLO1632U   0x00ceb2    program     extern C:\MCC18\src\traditional\math\cast16FP.asm
+                    FPA32   0x00cede    program     extern C:\MCC18\src\traditional\math\addFP.asm
+                    FPD32   0x00d00a    program     extern C:\MCC18\src\traditional\math\divFP.asm
+                    FPM32   0x00d0b0    program     extern C:\MCC18\src\traditional\math\mulFP.asm
+                    FPS32   0x00cedc    program     extern C:\MCC18\src\traditional\math\addFP.asm
+                 FXD1616S   0x00d18a    program     extern C:\MCC18\src\traditional\math\fxd1616s.asm
+                 FXD1616U   0x00e884    program     extern C:\MCC18\src\traditional\math\fxd1616u.c
+                 FXD3232U   0x00e83c    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x00d1d6    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
+                  FXM3232   0x00e766    program     extern C:\MCC18\src\traditional\math\fxm3232.c
                      Fill   0x00ba38    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-              FillDisplay   0x00d558    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+              FillDisplay   0x00d5be    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
             FlushGraphics   0x00b992    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
          GeneratePhysWall   0x00b8be    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
        GetScrollDirection   0x00c594    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-           GetScrollState   0x00c458    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+           GetScrollState   0x00c454    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                  High_ISR   0x000008    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  INT3208   0x00d1ca    program     extern C:\MCC18\src\traditional\math\castFP08.asm
-                  INT3216   0x00d218    program     extern C:\MCC18\src\traditional\math\castFP16.asm
-                  InitADC   0x00e09a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-               InitBma150   0x00dbd0    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
-                 InitCTMU   0x00e082    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                  INT3208   0x00d230    program     extern C:\MCC18\src\traditional\math\castFP08.asm
+                  INT3216   0x00d27e    program     extern C:\MCC18\src\traditional\math\castFP16.asm
+                  InitADC   0x00e100    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+               InitBma150   0x00dc36    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
+                 InitCTMU   0x00e0e8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
               InitPhysics   0x00a46e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-         InitializeSystem   0x00cbfa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+         InitializeSystem   0x00cc56    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                  IsCollid   0x00a6ec    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   Low_ISR   0x000018    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
            Meteorite_Rain   0x00a58e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                ProcessIO   0x00cc5e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                ProcessIO   0x00ccba    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
              ReadAccState   0x00a180    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
         Remapped_High_ISR   0x00a008    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
          Remapped_Low_ISR   0x00a018    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              ResetDevice   0x00d4a6    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+              ResetDevice   0x00d50c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
               SelectLevel   0x00c610    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              SpiPinRemap   0x00dc90    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
+              SpiPinRemap   0x00dcf6    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
                      Step   0x00a1fc    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  TAEQB32   0x00d276    program     extern C:\MCC18\src\traditional\math\eqFP.asm
-                  TAGTB32   0x00d284    program     extern C:\MCC18\src\traditional\math\gtFP.asm
-                  TALTB32   0x00d296    program     extern C:\MCC18\src\traditional\math\ltFP.asm
-               TSIGN1616A   0x00d1bc    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
-                 UserInit   0x00cc38    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-             WriteCommand   0x00d54c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                WriteData   0x00d552    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-            WriteGameOver   0x00cb88    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-  YourHighPriorityISRCode   0x00c430    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-   YourLowPriorityISRCode   0x00c436    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   _2jEnd   0x00e7c0    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-              __FpCompare   0x00d2a8    program     extern C:\MCC18\src\traditional\math\compFP.asm
-                 __FpExit   0x00d35e    program     extern C:\MCC18\src\traditional\math\packFP.asm
-                 __FpPack   0x00d38a    program     extern C:\MCC18\src\traditional\math\packFP.asm
-            __FpReturnNaN   0x00d352    program     extern C:\MCC18\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x00d364    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x00d37c    program     extern C:\MCC18\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x00d36a    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x00d384    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x00d360    program     extern C:\MCC18\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x00d378    program     extern C:\MCC18\src\traditional\math\packFP.asm
-              __FpReturnW   0x00d3e2    program     extern C:\MCC18\src\traditional\math\packFP.asm
-              __FpUnPackA   0x00d402    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x00d432    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
-       ___case_0_lbl00048   0x00c730    program     static                          
-       ___case_0_lbl00069   0x00ca80    program     static                          
-       ___case_1_lbl00050   0x00c7f8    program     static                          
-       ___case_1_lbl00070   0x00ca8a    program     static                          
-       ___case_2_lbl00071   0x00cab0    program     static                          
-       ___case_3_lbl00072   0x00cace    program     static                          
-       ___case_4_lbl00051   0x00c806    program     static                          
-       ___case_5_lbl00053   0x00c8c2    program     static                          
-       ___case_6_lbl00054   0x00c8ce    program     static                          
-       ___case_7_lbl00074   0x00cad4    program     static                          
-       ___case_8_lbl00075   0x00cad8    program     static                          
-       ___case_9_lbl00076   0x00cb6e    program     static                          
-      ___default_lbl00077   0x00cb72    program     static                          
-         ___else_lbl00009   0x00dd7e    program     static                          
-         ___else_lbl00059   0x00c8ee    program     static                          
-         ___else_lbl00061   0x00c954    program     static                          
-         ___else_lbl00063   0x00c990    program     static                          
-         ___else_lbl00065   0x00c9ce    program     static                          
-         ___else_lbl00067   0x00ca0c    program     static                          
-           ___if_lbl00001   0x00dc16    program     static                          
-           ___if_lbl00005   0x00dcdc    program     static                          
-           ___if_lbl00008   0x00dd86    program     static                          
-           ___if_lbl00049   0x00c804    program     static                          
-           ___if_lbl00052   0x00c8cc    program     static                          
-           ___if_lbl00055   0x00c8ec    program     static                          
-           ___if_lbl00056   0x00c900    program     static                          
-           ___if_lbl00057   0x00c900    program     static                          
-           ___if_lbl00058   0x00c900    program     static                          
-           ___if_lbl00060   0x00c96e    program     static                          
-           ___if_lbl00062   0x00c9aa    program     static                          
-           ___if_lbl00064   0x00c9e8    program     static                          
-           ___if_lbl00066   0x00ca26    program     static                          
-           ___if_lbl00073   0x00cad2    program     static                          
+                  TAEQB32   0x00d2dc    program     extern C:\MCC18\src\traditional\math\eqFP.asm
+                  TAGTB32   0x00d2ea    program     extern C:\MCC18\src\traditional\math\gtFP.asm
+                  TALTB32   0x00d2fc    program     extern C:\MCC18\src\traditional\math\ltFP.asm
+               TSIGN1616A   0x00d222    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
+                 UserInit   0x00cc94    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+             WriteCommand   0x00d5b2    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+            WriteCongrats   0x00cba4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                WriteData   0x00d5b8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+            WriteGameOver   0x00cb8c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+  YourHighPriorityISRCode   0x00c42a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+   YourLowPriorityISRCode   0x00c430    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   _2jEnd   0x00e826    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+              __FpCompare   0x00d30e    program     extern C:\MCC18\src\traditional\math\compFP.asm
+                 __FpExit   0x00d3c4    program     extern C:\MCC18\src\traditional\math\packFP.asm
+                 __FpPack   0x00d3f0    program     extern C:\MCC18\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x00d3b8    program     extern C:\MCC18\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x00d3ca    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00d3e2    program     extern C:\MCC18\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00d3d0    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x00d3ea    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x00d3c6    program     extern C:\MCC18\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x00d3de    program     extern C:\MCC18\src\traditional\math\packFP.asm
+              __FpReturnW   0x00d448    program     extern C:\MCC18\src\traditional\math\packFP.asm
+              __FpUnPackA   0x00d468    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x00d498    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+       ___case_0_lbl00048   0x00c734    program     static                          
+       ___case_0_lbl00069   0x00ca84    program     static                          
+       ___case_1_lbl00050   0x00c7fc    program     static                          
+       ___case_1_lbl00070   0x00ca8e    program     static                          
+       ___case_2_lbl00071   0x00cab4    program     static                          
+       ___case_3_lbl00072   0x00cad2    program     static                          
+       ___case_4_lbl00051   0x00c80a    program     static                          
+       ___case_5_lbl00053   0x00c8c6    program     static                          
+       ___case_6_lbl00054   0x00c8d2    program     static                          
+       ___case_7_lbl00074   0x00cad8    program     static                          
+       ___case_8_lbl00075   0x00cadc    program     static                          
+       ___case_9_lbl00076   0x00cb72    program     static                          
+      ___default_lbl00077   0x00cb76    program     static                          
+         ___else_lbl00009   0x00dde4    program     static                          
+         ___else_lbl00059   0x00c8f2    program     static                          
+         ___else_lbl00061   0x00c958    program     static                          
+         ___else_lbl00063   0x00c994    program     static                          
+         ___else_lbl00065   0x00c9d2    program     static                          
+         ___else_lbl00067   0x00ca10    program     static                          
+           ___if_lbl00001   0x00dc7c    program     static                          
+           ___if_lbl00005   0x00dd42    program     static                          
+           ___if_lbl00008   0x00ddec    program     static                          
+           ___if_lbl00049   0x00c808    program     static                          
+           ___if_lbl00052   0x00c8d0    program     static                          
+           ___if_lbl00055   0x00c8f0    program     static                          
+           ___if_lbl00056   0x00c904    program     static                          
+           ___if_lbl00057   0x00c904    program     static                          
+           ___if_lbl00058   0x00c904    program     static                          
+           ___if_lbl00060   0x00c972    program     static                          
+           ___if_lbl00062   0x00c9ae    program     static                          
+           ___if_lbl00064   0x00c9ec    program     static                          
+           ___if_lbl00066   0x00ca2a    program     static                          
+           ___if_lbl00073   0x00cad6    program     static                          
+       ___return_lbl00000   0x00e8ae    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x00e81c    program     static                          
-       ___return_lbl00000   0x00e848    program     static                          
-       ___return_lbl00000   0x00e76e    program     static                          
+       ___return_lbl00000   0x00e882    program     static                          
+       ___return_lbl00000   0x00dce2    program     static                          
        ___return_lbl00000   0x00a004    program     static                          
-       ___return_lbl00000   0x00dc7c    program     static                          
+       ___return_lbl00000   0x00e7d4    program     static                          
+       ___return_lbl00001   0x00e8ee    program     static                          
        ___return_lbl00001   0x00a00c    program     static                          
-       ___return_lbl00001   0x00e888    program     static                          
-       ___return_lbl00002   0x00e67a    program     static                          
+       ___return_lbl00002   0x00e6e0    program     static                          
        ___return_lbl00002   0x00a01c    program     static                          
-       ___return_lbl00003   0x00e190    program     static                          
-       ___return_lbl00003   0x00dd8c    program     static                          
        ___return_lbl00003   0x00000c    program     static                          
+       ___return_lbl00003   0x00ddf2    program     static                          
+       ___return_lbl00003   0x00e1f6    program     static                          
        ___return_lbl00004   0x00001c    program     static                          
-       ___return_lbl00012   0x00de3c    program     static                          
-       ___return_lbl00046   0x00cb74    program     static                          
-   ___switchexit_lbl00047   0x00cb74    program     static                          
-   ___switchexit_lbl00068   0x00cad2    program     static                          
-        ___while_lbl00004   0x00e172    program     static                          
-        ___while_lbl00005   0x00e176    program     static                          
-        ___while_lbl00006   0x00dce6    program     static                          
-        ___while_lbl00007   0x00dcea    program     static                          
-        ___while_lbl00010   0x00dd86    program     static                          
-        ___while_lbl00011   0x00dd8a    program     static                          
-        ___while_lbl00013   0x00ddaa    program     static                          
-        ___while_lbl00014   0x00ddae    program     static                          
-        ___while_lbl00015   0x00de32    program     static                          
-        ___while_lbl00016   0x00de36    program     static                          
+       ___return_lbl00012   0x00dea2    program     static                          
+       ___return_lbl00046   0x00cb78    program     static                          
+   ___switchexit_lbl00047   0x00cb78    program     static                          
+   ___switchexit_lbl00068   0x00cad6    program     static                          
+        ___while_lbl00004   0x00e1d8    program     static                          
+        ___while_lbl00005   0x00e1dc    program     static                          
+        ___while_lbl00006   0x00dd4c    program     static                          
+        ___while_lbl00007   0x00dd50    program     static                          
+        ___while_lbl00010   0x00ddec    program     static                          
+        ___while_lbl00011   0x00ddf0    program     static                          
+        ___while_lbl00013   0x00de10    program     static                          
+        ___while_lbl00014   0x00de14    program     static                          
+        ___while_lbl00015   0x00de98    program     static                          
+        ___while_lbl00016   0x00de9c    program     static                          
                __config_0   0x00fff8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                __config_1   0x00fff9    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                __config_2   0x00fffa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
@@ -301,278 +302,279 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x00a018    program   0x000006
                __config_6   0x00fffe    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                __config_7   0x00ffff    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                    __init   0x00a00e    program     extern C:\MCC18\src\traditional\stdclib\__init.c
-                   __pa_0   0x00d740    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_0   0x00dbb6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   __pa_0   0x00e21a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
                    __pa_0   0x00b5dc    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                   __pa_0   0x00c1a2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_0   0x00dc1c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
                    __pa_0   0x00a76a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                   __pa_0   0x00cce0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_1   0x00dbc4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   __pa_1   0x00d75c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_1   0x00b5e4    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                   __pa_1   0x00e22a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                   __pa_0   0x00d7a6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_0   0x00cd3c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_0   0x00c19c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_0   0x00e280    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                   __pa_1   0x00cd5c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_1   0x00dc2a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
                    __pa_1   0x00a786    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                   __pa_1   0x00c1bc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_1   0x00cd00    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_10   0x00a956    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                   __pa_1   0x00c1b6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_1   0x00e290    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                   __pa_1   0x00b5e4    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_1   0x00d7c2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
                   __pa_10   0x00b698    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_10   0x00cdbc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_10   0x00c212    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_10   0x00d7e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_11   0x00cdc6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_11   0x00c220    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_11   0x00b6a6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_11   0x00d7f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_10   0x00a956    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_10   0x00c20c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_10   0x00ce18    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_10   0x00d84a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_11   0x00d85a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_11   0x00ce22    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_11   0x00c21a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_11   0x00a960    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_12   0x00b6bc    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_11   0x00b6a6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x00c228    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_12   0x00a96e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_12   0x00d808    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_12   0x00c22e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_12   0x00cdd4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_13   0x00a97a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_13   0x00d810    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_12   0x00d86e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_12   0x00b6bc    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_12   0x00ce30    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                   __pa_13   0x00b6d6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_13   0x00cde2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_13   0x00c23a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_14   0x00cdf0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_14   0x00a98c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_14   0x00d81e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_13   0x00ce3e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_13   0x00d876    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_13   0x00a97a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_13   0x00c234    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_14   0x00b6ee    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_14   0x00c244    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_14   0x00a98c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_14   0x00d884    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_14   0x00ce4c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_14   0x00c23e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_15   0x00c248    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_15   0x00a99e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_15   0x00d828    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
                   __pa_15   0x00b6fe    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_15   0x00c24e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_15   0x00ce00    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_16   0x00ce0a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_16   0x00d872    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_15   0x00d88e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_15   0x00ce5c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_16   0x00ce66    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_16   0x00c252    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_16   0x00a9b0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_16   0x00c258    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_16   0x00b714    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_17   0x00d87e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_17   0x00c262    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_17   0x00a9c2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_16   0x00d8d8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_17   0x00c25c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_17   0x00b726    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_17   0x00ce1a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_18   0x00ce20    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_18   0x00d886    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_18   0x00a9ce    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_18   0x00c26a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_17   0x00d8e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_17   0x00a9c2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_17   0x00ce70    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_18   0x00c264    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_18   0x00b738    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_19   0x00c272    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_19   0x00b742    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_18   0x00d8ec    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_18   0x00a9ce    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_18   0x00ce80    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                   __pa_19   0x00a9e0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_19   0x00d88e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_2   0x00cd20    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_2   0x00e23e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-                   __pa_2   0x00c1c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_19   0x00ce86    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_19   0x00d8f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_19   0x00c26c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_19   0x00b742    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_2   0x00e2a4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                   __pa_2   0x00cd66    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_2   0x00d7c8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_2   0x00c1c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                    __pa_2   0x00a83c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                   __pa_2   0x00d762    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
                    __pa_2   0x00b5ee    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_20   0x00c278    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_20   0x00a9f8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_20   0x00d896    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_20   0x00d8fc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_20   0x00c272    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_20   0x00b752    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_21   0x00d8a0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
                   __pa_21   0x00a9fe    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_21   0x00c278    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_21   0x00b762    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_21   0x00c27e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_22   0x00d8ac    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_22   0x00b772    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_21   0x00d906    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
                   __pa_22   0x00aa0e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_22   0x00c284    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_23   0x00b77e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_22   0x00c27e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_22   0x00d912    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_22   0x00b772    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_23   0x00aa22    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_23   0x00c28c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_23   0x00d8b6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_24   0x00b78c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_24   0x00c292    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_23   0x00c286    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_23   0x00d91c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_23   0x00b77e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_24   0x00aa2c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_25   0x00b794    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_25   0x00c29a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_24   0x00c28c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_24   0x00b78c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_25   0x00aa32    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_26   0x00c2a4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_26   0x00aa3a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_25   0x00b794    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_25   0x00c294    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_26   0x00b79e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_27   0x00c2aa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_27   0x00aa42    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_26   0x00aa3a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_26   0x00c29e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_27   0x00b7a8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_28   0x00c2b2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_28   0x00aa4e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_27   0x00aa42    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_27   0x00c2a4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_28   0x00b7b0    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_29   0x00b7be    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_28   0x00aa4e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_28   0x00c2ac    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_29   0x00aa5a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_29   0x00c2ba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_3   0x00e252    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-                   __pa_3   0x00cd36    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_3   0x00c1cc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_3   0x00d76e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_3   0x00b5f8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x00b7be    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_29   0x00c2b4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_3   0x00c1c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                    __pa_3   0x00a842    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_30   0x00c2c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_30   0x00aa66    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                   __pa_3   0x00b5f8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_3   0x00e2b8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                   __pa_3   0x00d7d4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_3   0x00cd86    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_30   0x00c2ba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_30   0x00b7da    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_31   0x00c2c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_30   0x00aa66    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_31   0x00b7f4    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_31   0x00aa78    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_32   0x00c2cc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_32   0x00b80e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_31   0x00c2c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_32   0x00aa8a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_32   0x00b80e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_32   0x00c2c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_33   0x00b826    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_33   0x00c2d6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_33   0x00aa96    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_34   0x00c2e0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_34   0x00aa9a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_33   0x00c2d0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_34   0x00b830    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_35   0x00c2e8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_35   0x00aaaa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_34   0x00c2da    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_34   0x00aa9a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_35   0x00b83e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_36   0x00c2ee    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_36   0x00aab8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_35   0x00c2e2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_35   0x00aaaa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_36   0x00b846    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_37   0x00c2f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_37   0x00aac0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_36   0x00c2e8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_36   0x00aab8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_37   0x00b850    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_38   0x00c2fa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_38   0x00b860    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_37   0x00aac0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_37   0x00c2ee    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_38   0x00aace    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_39   0x00b86e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_38   0x00c2f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_38   0x00b860    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_39   0x00aae0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_39   0x00c304    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_4   0x00d788    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_39   0x00c2fe    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_39   0x00b86e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x00c1ce    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                    __pa_4   0x00a85c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                   __pa_4   0x00cd54    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                    __pa_4   0x00b610    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                   __pa_4   0x00c1d4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_40   0x00b87a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_4   0x00d7ee    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_4   0x00cd9c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                   __pa_40   0x00ab02    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_40   0x00c30a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_41   0x00b886    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_40   0x00c304    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_40   0x00b87a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_41   0x00ab24    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_41   0x00c31c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_42   0x00c32a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_41   0x00c316    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_41   0x00b886    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_42   0x00ab36    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_42   0x00c324    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_42   0x00b88e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_43   0x00ab48    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_43   0x00b898    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_43   0x00c32e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_43   0x00c328    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_44   0x00ab5a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_44   0x00c334    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_44   0x00b89e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_45   0x00c342    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_45   0x00ab6c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_44   0x00c32e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_45   0x00b8a8    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_46   0x00ab76    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_46   0x00c34c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_45   0x00c33c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_45   0x00ab6c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_46   0x00c346    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_46   0x00b8b4    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_46   0x00ab76    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_47   0x00ab80    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_47   0x00c358    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_47   0x00c352    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_48   0x00c35c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_48   0x00ab88    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_48   0x00c362    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_49   0x00c366    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_49   0x00ab96    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_49   0x00c36c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_5   0x00c1dc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_5   0x00d790    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_5   0x00cd72    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_5   0x00a870    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                   __pa_5   0x00d7f6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
                    __pa_5   0x00b624    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_50   0x00c374    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_5   0x00cdba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_5   0x00c1d6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_5   0x00a870    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_50   0x00aba8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_51   0x00c378    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_50   0x00c36e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_51   0x00c372    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_51   0x00abba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_52   0x00c37e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_52   0x00abc4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_53   0x00c384    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_52   0x00c378    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_53   0x00abde    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_53   0x00c37e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_54   0x00abe6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_54   0x00c38a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_54   0x00c384    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_55   0x00abf8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_55   0x00c390    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_55   0x00c38a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_56   0x00c390    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_56   0x00ac04    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_56   0x00c396    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_57   0x00c39c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_57   0x00c396    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_57   0x00ac16    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_58   0x00c3a2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_58   0x00c39c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_58   0x00ac28    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_59   0x00c3a8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_59   0x00ac36    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                   __pa_6   0x00c1ea    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_6   0x00cd7c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_6   0x00d7a2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_6   0x00a8c2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_59   0x00c3a2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_6   0x00cdd8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_6   0x00c1e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                    __pa_6   0x00b640    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_6   0x00d808    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_6   0x00a8c2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_60   0x00ac40    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_60   0x00c3ae    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_60   0x00c3a8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_61   0x00c3ae    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_61   0x00ac4a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_61   0x00c3b4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_62   0x00c3c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_62   0x00c3ba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_62   0x00ac58    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_63   0x00c3c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_63   0x00ac6e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+                  __pa_63   0x00c3c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_64   0x00c3c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_64   0x00ac84    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_64   0x00c3cc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_65   0x00ac8a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_65   0x00c3d4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_66   0x00c3dc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_65   0x00c3ce    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                   __pa_66   0x00ac90    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                  __pa_67   0x00c3e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_68   0x00c3ea    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_69   0x00c3f0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_7   0x00b64a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                   __pa_7   0x00c1f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_7   0x00cd8a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_66   0x00c3d6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_67   0x00c3de    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_68   0x00c3e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_69   0x00c3ea    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                    __pa_7   0x00a8fe    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                   __pa_7   0x00d7b2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_70   0x00c3f6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_71   0x00c3fc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_72   0x00c402    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_73   0x00c408    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_74   0x00c410    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_75   0x00c418    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_76   0x00c41e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_77   0x00c424    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_78   0x00c42a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_8   0x00b656    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                   __pa_8   0x00d7bc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_7   0x00cde6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_7   0x00c1ee    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_7   0x00d818    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_7   0x00b64a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                  __pa_70   0x00c3f0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_71   0x00c3f6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_72   0x00c3fc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_73   0x00c402    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_74   0x00c40a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_75   0x00c412    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_76   0x00c418    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_77   0x00c41e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_78   0x00c424    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                    __pa_8   0x00a904    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                   __pa_8   0x00cd9c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_8   0x00c1fe    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_8   0x00c1f8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_8   0x00cdf8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_8   0x00d822    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_8   0x00b656    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                   __pa_9   0x00c200    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                    __pa_9   0x00b678    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                   __pa_9   0x00d7ca    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_9   0x00ce02    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                    __pa_9   0x00a91a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                   __pa_9   0x00c206    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_9   0x00cda6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_0   0x00e06c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_1   0x00e056    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_10   0x00df8d    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_11   0x00df77    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_12   0x00df61    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_13   0x00df4b    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_14   0x00df35    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_15   0x00df1f    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_16   0x00df08    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_17   0x00def2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_18   0x00dedc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_19   0x00dec6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_2   0x00e03f    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_20   0x00deb0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_21   0x00de9a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_22   0x00de84    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_23   0x00de6e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_24   0x00de58    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_25   0x00de44    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_3   0x00e028    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_4   0x00e012    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_5   0x00dffc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_6   0x00dfe5    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_7   0x00dfce    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_8   0x00dfba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_9   0x00dfa3    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __tmplbl_0   0x00c1fe    program     static                          
-               __tmplbl_0   0x00dcd0    program     static                          
-               __tmplbl_1   0x00dcc8    program     static                          
-              __tmplbl_15   0x00cd9c    program     static                          
+                   __pa_9   0x00d830    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+               __string_0   0x00e0d2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_1   0x00e0bc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_10   0x00dff3    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_11   0x00dfdd    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_12   0x00dfc7    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_13   0x00dfb1    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_14   0x00df9b    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_15   0x00df85    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_16   0x00df6e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_17   0x00df58    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_18   0x00df42    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_19   0x00df2c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_2   0x00e0a5    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_20   0x00df16    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_21   0x00df00    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_22   0x00deea    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_23   0x00ded4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_24   0x00debe    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_25   0x00deaa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_3   0x00e08e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_4   0x00e078    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_5   0x00e062    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_6   0x00e04b    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_7   0x00e034    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_8   0x00e020    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_9   0x00e009    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __tmplbl_0   0x00dd36    program     static                          
+               __tmplbl_0   0x00c1f8    program     static                          
+               __tmplbl_1   0x00dd2e    program     static                          
+              __tmplbl_15   0x00cdf8    program     static                          
               __tmplbl_16   0x00a91a    program     static                          
               __tmplbl_17   0x00a91a    program     static                          
               __tmplbl_18   0x00abde    program     static                          
@@ -581,126 +583,126 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x00a018    program   0x000006
               __tmplbl_43   0x00b5ba    program     static                          
               __tmplbl_44   0x00b5a0    program     static                          
               __tmplbl_85   0x00acf2    program     static                          
-            __zero_memory   0x00e8b8    program     extern C:\MCC18\src\traditional\proc\p18F46J50.asm
-                _do_cinit   0x00e5de    program     extern C:\MCC18\src\traditional\startup\c018i.c
+            __zero_memory   0x00e91e    program     extern C:\MCC18\src\traditional\proc\p18F46J50.asm
+                _do_cinit   0x00e644    program     extern C:\MCC18\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                   _false   0x00e818    program     static                          
-       _generatePhysWalls   0x00d8bc    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   _false   0x00e87e    program     static                          
+       _generatePhysWalls   0x00d922    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
                    _reset   0x00a000    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                 _startup   0x00e86e    program     extern C:\MCC18\src\traditional\startup\c018i.c
-              _usart_putc   0x00e88a    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                 _startup   0x00e8d4    program     extern C:\MCC18\src\traditional\startup\c018i.c
+              _usart_putc   0x00e8f0    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
                _user_putc   0x00a006    program     extern C:\MCC18\src\traditional\stdclib\_user_putc.c
                       abs   0x00a538    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                 checkWall   0x00a09a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-               clear_loop   0x00e8be    program     static C:\MCC18\src\traditional\proc\p18F46J50.asm
-                copy_loop   0x00e650    program     static                          
-            copy_one_byte   0x00e656    program     static                          
+               clear_loop   0x00e924    program     static C:\MCC18\src\traditional\proc\p18F46J50.asm
+                copy_loop   0x00e6b6    program     static                          
+            copy_one_byte   0x00e6bc    program     static                          
                  distance   0x00a748    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-                     done   0x00e67a    program     static                          
-             done_copying   0x00e664    program     static                          
-                  endloop   0x00e844    program     static                          
-                g_pucFont   0x00e266    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  isdigit   0x00e84a    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
-                 jANotInf   0x00d068    program     static C:\MCC18\src\traditional\math\mulFP.asm
-                 jANotInf   0x00cea0    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jANotInf   0x00cfc2    program     static C:\MCC18\src\traditional\math\divFP.asm
-                 jANotNeg   0x00cf34    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jANotZero   0x00cfd6    program     static C:\MCC18\src\traditional\math\divFP.asm
-              jAandWsetup   0x00cf04    program     static C:\MCC18\src\traditional\math\addFP.asm
-                  jAisNeg   0x00d324    program     static C:\MCC18\src\traditional\math\compFP.asm
-                 jAltBexp   0x00cef2    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jBANotInf   0x00ce96    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jBNotInf   0x00ceae    program     static C:\MCC18\src\traditional\math\addFP.asm
-              jBothFinite   0x00d076    program     static C:\MCC18\src\traditional\math\mulFP.asm
-             jBothNotZero   0x00d2c6    program     static C:\MCC18\src\traditional\math\compFP.asm
-             jBothNotZero   0x00d082    program     static C:\MCC18\src\traditional\math\mulFP.asm
-            jDifOrPosSign   0x00cec2    program     static C:\MCC18\src\traditional\math\addFP.asm
-                      jEQ   0x00d2e2    program     static C:\MCC18\src\traditional\math\compFP.asm
-                     jEnd   0x00e7c2    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x00e78a    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                    jExch   0x00d2ee    program     static C:\MCC18\src\traditional\math\compFP.asm
-                    jExit   0x00d216    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                    jExit   0x00d274    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                   jExpEQ   0x00d334    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jFinal   0x00d318    program     static C:\MCC18\src\traditional\math\compFP.asm
-               jFinalSign   0x00cf9c    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jHaveZero   0x00d07e    program     static C:\MCC18\src\traditional\math\mulFP.asm
-                jI2F08Beg   0x00ce38    program     static C:\MCC18\src\traditional\math\cast08FP.asm
-                jI2F16Beg   0x00ce60    program     static C:\MCC18\src\traditional\math\cast16FP.asm
-                    jLoop   0x00d1fe    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                    jLoop   0x00d254    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                    jLoop   0x00e780    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                    jLoop   0x00e7aa    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x00cffe    program     static C:\MCC18\src\traditional\math\divFP.asm
-                jLoopExit   0x00d20c    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                jLoopExit   0x00d264    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                   jMatch   0x00e86a    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-                     jMax   0x00d1da    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                     jMax   0x00d228    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                  jMaxNeg   0x00d236    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                  jMaxNeg   0x00d1e4    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jMaxPos   0x00d1de    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jMaxPos   0x00d22c    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                      jNE   0x00d2e6    program     static C:\MCC18\src\traditional\math\compFP.asm
-                    jNext   0x00d024    program     static C:\MCC18\src\traditional\math\divFP.asm
-                jNoAdjust   0x00d022    program     static C:\MCC18\src\traditional\math\divFP.asm
-                  jNoExch   0x00d30e    program     static C:\MCC18\src\traditional\math\compFP.asm
-                 jNoMatch   0x00e86c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-             jNotBothZero   0x00cec6    program     static C:\MCC18\src\traditional\math\addFP.asm
-                  jNotInf   0x00d244    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                  jNotInf   0x00d1ee    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jPkLoop   0x00d398    program     static C:\MCC18\src\traditional\math\packFP.asm
-             jPkRoundDone   0x00d3e2    program     static C:\MCC18\src\traditional\math\packFP.asm
-               jPkRoundIt   0x00d3ca    program     static C:\MCC18\src\traditional\math\packFP.asm
-             jPkShiftDone   0x00d3b4    program     static C:\MCC18\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x00d36e    program     static C:\MCC18\src\traditional\math\packFP.asm
-                  jRotate   0x00d340    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jShift   0x00d32a    program     static C:\MCC18\src\traditional\math\compFP.asm
-               jShiftDone   0x00cf5c    program     static C:\MCC18\src\traditional\math\addFP.asm
-               jShiftLoop   0x00cf4e    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jSignDone   0x00cf8c    program     static C:\MCC18\src\traditional\math\addFP.asm
-              jSignedZero   0x00cfcc    program     static C:\MCC18\src\traditional\math\divFP.asm
-                 jSignsEQ   0x00d2ca    program     static C:\MCC18\src\traditional\math\compFP.asm
-                  jUnpkA1   0x00d40c    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x00d424    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x00d41a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x00d43c    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x00d454    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x00d44a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x00d42e    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jWNotNeg   0x00cf48    program     static C:\MCC18\src\traditional\math\addFP.asm
-                    jZero   0x00d23e    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                    jZero   0x00d1ea    program     static C:\MCC18\src\traditional\math\castFP08.asm
-               jZero1and2   0x00d372    program     static C:\MCC18\src\traditional\math\packFP.asm
-                   level0   0x00d9c0    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level1   0x00d9c2    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level2   0x00d9c4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level3   0x00d9c6    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level4   0x00da8e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level5   0x00dae4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                     loop   0x00e828    program     static                          
-                     loop   0x00e89a    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
-                     loop   0x00e87e    program     static                          
-                     loop   0x00e7e4    program     static                          
-          mTouchCalibrate   0x00e1a4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-               mTouchInit   0x00e0ce    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-         mTouchReadButton   0x00e0d4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-                     main   0x00c450    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-             oledPutImage   0x00d6a8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-         oledPutNegString   0x00d68a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-      oledPutROMNegString   0x00d64e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-         oledPutROMString   0x00d630    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-            oledPutString   0x00d66c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-          oledWriteChar1x   0x00d5a8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-       oledWriteNegChar1x   0x00d5ec    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                     putc   0x00e67c    program     extern C:\MCC18\src\traditional\stdclib\putc.c
-                resetBall   0x00d92a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                 s_digits   0x00e8a6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+                     done   0x00e6e0    program     static                          
+             done_copying   0x00e6ca    program     static                          
+                  endloop   0x00e8aa    program     static                          
+                g_pucFont   0x00e2cc    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  isdigit   0x00e8b0    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
+                 jANotInf   0x00d0ce    program     static C:\MCC18\src\traditional\math\mulFP.asm
+                 jANotInf   0x00cf06    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jANotInf   0x00d028    program     static C:\MCC18\src\traditional\math\divFP.asm
+                 jANotNeg   0x00cf9a    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jANotZero   0x00d03c    program     static C:\MCC18\src\traditional\math\divFP.asm
+              jAandWsetup   0x00cf6a    program     static C:\MCC18\src\traditional\math\addFP.asm
+                  jAisNeg   0x00d38a    program     static C:\MCC18\src\traditional\math\compFP.asm
+                 jAltBexp   0x00cf58    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jBANotInf   0x00cefc    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jBNotInf   0x00cf14    program     static C:\MCC18\src\traditional\math\addFP.asm
+              jBothFinite   0x00d0dc    program     static C:\MCC18\src\traditional\math\mulFP.asm
+             jBothNotZero   0x00d32c    program     static C:\MCC18\src\traditional\math\compFP.asm
+             jBothNotZero   0x00d0e8    program     static C:\MCC18\src\traditional\math\mulFP.asm
+            jDifOrPosSign   0x00cf28    program     static C:\MCC18\src\traditional\math\addFP.asm
+                      jEQ   0x00d348    program     static C:\MCC18\src\traditional\math\compFP.asm
+                     jEnd   0x00e828    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x00e7f0    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jExch   0x00d354    program     static C:\MCC18\src\traditional\math\compFP.asm
+                    jExit   0x00d27c    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jExit   0x00d2da    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                   jExpEQ   0x00d39a    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jFinal   0x00d37e    program     static C:\MCC18\src\traditional\math\compFP.asm
+               jFinalSign   0x00d002    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jHaveZero   0x00d0e4    program     static C:\MCC18\src\traditional\math\mulFP.asm
+                jI2F08Beg   0x00ce9e    program     static C:\MCC18\src\traditional\math\cast08FP.asm
+                jI2F16Beg   0x00cec6    program     static C:\MCC18\src\traditional\math\cast16FP.asm
+                    jLoop   0x00d264    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jLoop   0x00d2ba    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                    jLoop   0x00e7e6    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jLoop   0x00e810    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x00d064    program     static C:\MCC18\src\traditional\math\divFP.asm
+                jLoopExit   0x00d272    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                jLoopExit   0x00d2ca    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                   jMatch   0x00e8d0    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                     jMax   0x00d240    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                     jMax   0x00d28e    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x00d29c    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x00d24a    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxPos   0x00d244    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxPos   0x00d292    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                      jNE   0x00d34c    program     static C:\MCC18\src\traditional\math\compFP.asm
+                    jNext   0x00d08a    program     static C:\MCC18\src\traditional\math\divFP.asm
+                jNoAdjust   0x00d088    program     static C:\MCC18\src\traditional\math\divFP.asm
+                  jNoExch   0x00d374    program     static C:\MCC18\src\traditional\math\compFP.asm
+                 jNoMatch   0x00e8d2    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+             jNotBothZero   0x00cf2c    program     static C:\MCC18\src\traditional\math\addFP.asm
+                  jNotInf   0x00d2aa    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                  jNotInf   0x00d254    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jPkLoop   0x00d3fe    program     static C:\MCC18\src\traditional\math\packFP.asm
+             jPkRoundDone   0x00d448    program     static C:\MCC18\src\traditional\math\packFP.asm
+               jPkRoundIt   0x00d430    program     static C:\MCC18\src\traditional\math\packFP.asm
+             jPkShiftDone   0x00d41a    program     static C:\MCC18\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00d3d4    program     static C:\MCC18\src\traditional\math\packFP.asm
+                  jRotate   0x00d3a6    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jShift   0x00d390    program     static C:\MCC18\src\traditional\math\compFP.asm
+               jShiftDone   0x00cfc2    program     static C:\MCC18\src\traditional\math\addFP.asm
+               jShiftLoop   0x00cfb4    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jSignDone   0x00cff2    program     static C:\MCC18\src\traditional\math\addFP.asm
+              jSignedZero   0x00d032    program     static C:\MCC18\src\traditional\math\divFP.asm
+                 jSignsEQ   0x00d330    program     static C:\MCC18\src\traditional\math\compFP.asm
+                  jUnpkA1   0x00d472    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x00d48a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x00d480    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00d4a2    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x00d4ba    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x00d4b0    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x00d494    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jWNotNeg   0x00cfae    program     static C:\MCC18\src\traditional\math\addFP.asm
+                    jZero   0x00d2a4    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                    jZero   0x00d250    program     static C:\MCC18\src\traditional\math\castFP08.asm
+               jZero1and2   0x00d3d8    program     static C:\MCC18\src\traditional\math\packFP.asm
+                   level0   0x00da26    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level1   0x00da28    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level2   0x00da2a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level3   0x00da2c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level4   0x00daf4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level5   0x00db4a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                     loop   0x00e88e    program     static                          
+                     loop   0x00e900    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                     loop   0x00e8e4    program     static                          
+                     loop   0x00e84a    program     static                          
+          mTouchCalibrate   0x00e20a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+               mTouchInit   0x00e134    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+         mTouchReadButton   0x00e13a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                     main   0x00c44a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+             oledPutImage   0x00d70e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+         oledPutNegString   0x00d6f0    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+      oledPutROMNegString   0x00d6b4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+         oledPutROMString   0x00d696    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+            oledPutString   0x00d6d2    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+          oledWriteChar1x   0x00d60e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+       oledWriteNegChar1x   0x00d652    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                     putc   0x00e6e2    program     extern C:\MCC18\src\traditional\stdclib\putc.c
+                resetBall   0x00d990    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                 s_digits   0x00e90c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
             s_put_n_chars   0x00ac9c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  sprintf   0x00e532    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
-                   strlen   0x00e770    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x00e78c    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                     test   0x00e5f8    program     static                          
+                  sprintf   0x00e598    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
+                   strlen   0x00e7d6    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x00e7f2    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     test   0x00e65e    program     static                          
                  vfprintf   0x00acc8    program     extern C:\MCC18\src\traditional\stdclib\vfprintf.c
              wallLineDown   0x00a082    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                wallLineUp   0x00a068    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
@@ -1346,8 +1348,8 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x00a018    program   0x000006
                   __pa_30   0x00aa66    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_31   0x00aa78    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_32   0x00aa8a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
-              __tmplbl_19   0x00aa96    program     static                          
                   __pa_33   0x00aa96    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
+              __tmplbl_19   0x00aa96    program     static                          
                   __pa_34   0x00aa9a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_35   0x00aaaa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
                   __pa_36   0x00aab8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\physics.c
@@ -1409,8 +1411,8 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x00a018    program   0x000006
                   __pa_19   0x00b742    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_20   0x00b752    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_21   0x00b762    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-              __tmplbl_42   0x00b772    program     static                          
                   __pa_22   0x00b772    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+              __tmplbl_42   0x00b772    program     static                          
                   __pa_23   0x00b77e    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_24   0x00b78c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_25   0x00b794    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
@@ -1445,396 +1447,398 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x00a018    program   0x000006
               DrawHorWall   0x00c020    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
               DrawVerWall   0x00c09a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
                 DrawScene   0x00c108    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_0   0x00c1a2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_1   0x00c1bc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_2   0x00c1c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_3   0x00c1cc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_4   0x00c1d4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_5   0x00c1dc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_6   0x00c1ea    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_7   0x00c1f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                   __pa_8   0x00c1fe    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-               __tmplbl_0   0x00c1fe    program     static                          
-                   __pa_9   0x00c206    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_10   0x00c212    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_11   0x00c220    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_12   0x00c22e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_13   0x00c23a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_14   0x00c244    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_15   0x00c24e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_16   0x00c258    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_17   0x00c262    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_18   0x00c26a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_19   0x00c272    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_20   0x00c278    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_21   0x00c27e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_22   0x00c284    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_23   0x00c28c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_24   0x00c292    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_25   0x00c29a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_26   0x00c2a4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_27   0x00c2aa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_28   0x00c2b2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_29   0x00c2ba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_30   0x00c2c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_31   0x00c2c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_32   0x00c2cc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_33   0x00c2d6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_34   0x00c2e0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_35   0x00c2e8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_36   0x00c2ee    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_37   0x00c2f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_38   0x00c2fa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_39   0x00c304    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_40   0x00c30a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_41   0x00c31c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_42   0x00c32a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_43   0x00c32e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_44   0x00c334    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_45   0x00c342    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_46   0x00c34c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_47   0x00c358    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_48   0x00c362    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_49   0x00c36c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_50   0x00c374    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_51   0x00c378    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_52   0x00c37e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_53   0x00c384    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_54   0x00c38a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_55   0x00c390    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_56   0x00c396    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_57   0x00c39c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_58   0x00c3a2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_59   0x00c3a8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_60   0x00c3ae    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_61   0x00c3b4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_62   0x00c3c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_63   0x00c3c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_64   0x00c3cc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_65   0x00c3d4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_66   0x00c3dc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_67   0x00c3e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_68   0x00c3ea    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_69   0x00c3f0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_70   0x00c3f6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_71   0x00c3fc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_72   0x00c402    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_73   0x00c408    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_74   0x00c410    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_75   0x00c418    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_76   0x00c41e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_77   0x00c424    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-                  __pa_78   0x00c42a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
-  YourHighPriorityISRCode   0x00c430    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-   YourLowPriorityISRCode   0x00c436    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                     main   0x00c450    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-           GetScrollState   0x00c458    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-             CalibrateAcc   0x00c49c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_0   0x00c19c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_1   0x00c1b6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_2   0x00c1c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_3   0x00c1c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_4   0x00c1ce    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_5   0x00c1d6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_6   0x00c1e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_7   0x00c1ee    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                   __pa_8   0x00c1f8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+               __tmplbl_0   0x00c1f8    program     static                          
+                   __pa_9   0x00c200    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_10   0x00c20c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_11   0x00c21a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_12   0x00c228    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_13   0x00c234    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_14   0x00c23e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_15   0x00c248    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_16   0x00c252    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_17   0x00c25c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_18   0x00c264    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_19   0x00c26c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_20   0x00c272    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_21   0x00c278    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_22   0x00c27e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_23   0x00c286    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_24   0x00c28c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_25   0x00c294    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_26   0x00c29e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_27   0x00c2a4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_28   0x00c2ac    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_29   0x00c2b4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_30   0x00c2ba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_31   0x00c2c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_32   0x00c2c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_33   0x00c2d0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_34   0x00c2da    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_35   0x00c2e2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_36   0x00c2e8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_37   0x00c2ee    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_38   0x00c2f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_39   0x00c2fe    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_40   0x00c304    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_41   0x00c316    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_42   0x00c324    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_43   0x00c328    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_44   0x00c32e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_45   0x00c33c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_46   0x00c346    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_47   0x00c352    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_48   0x00c35c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_49   0x00c366    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_50   0x00c36e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_51   0x00c372    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_52   0x00c378    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_53   0x00c37e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_54   0x00c384    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_55   0x00c38a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_56   0x00c390    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_57   0x00c396    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_58   0x00c39c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_59   0x00c3a2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_60   0x00c3a8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_61   0x00c3ae    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_62   0x00c3ba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_63   0x00c3c0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_64   0x00c3c6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_65   0x00c3ce    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_66   0x00c3d6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_67   0x00c3de    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_68   0x00c3e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_69   0x00c3ea    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_70   0x00c3f0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_71   0x00c3f6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_72   0x00c3fc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_73   0x00c402    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_74   0x00c40a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_75   0x00c412    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_76   0x00c418    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_77   0x00c41e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+                  __pa_78   0x00c424    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\graph.c
+  YourHighPriorityISRCode   0x00c42a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+   YourLowPriorityISRCode   0x00c430    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                     main   0x00c44a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+           GetScrollState   0x00c454    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+             CalibrateAcc   0x00c498    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
        GetScrollDirection   0x00c594    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
               SelectLevel   0x00c610    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-         DemoIntroduction   0x00c6f4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-       ___case_0_lbl00048   0x00c730    program     static                          
-       ___case_1_lbl00050   0x00c7f8    program     static                          
-           ___if_lbl00049   0x00c804    program     static                          
-       ___case_4_lbl00051   0x00c806    program     static                          
-       ___case_5_lbl00053   0x00c8c2    program     static                          
-           ___if_lbl00052   0x00c8cc    program     static                          
-       ___case_6_lbl00054   0x00c8ce    program     static                          
-           ___if_lbl00055   0x00c8ec    program     static                          
-         ___else_lbl00059   0x00c8ee    program     static                          
-           ___if_lbl00056   0x00c900    program     static                          
-           ___if_lbl00057   0x00c900    program     static                          
-           ___if_lbl00058   0x00c900    program     static                          
-         ___else_lbl00061   0x00c954    program     static                          
-           ___if_lbl00060   0x00c96e    program     static                          
-         ___else_lbl00063   0x00c990    program     static                          
-           ___if_lbl00062   0x00c9aa    program     static                          
-         ___else_lbl00065   0x00c9ce    program     static                          
-           ___if_lbl00064   0x00c9e8    program     static                          
-         ___else_lbl00067   0x00ca0c    program     static                          
-           ___if_lbl00066   0x00ca26    program     static                          
-       ___case_0_lbl00069   0x00ca80    program     static                          
-       ___case_1_lbl00070   0x00ca8a    program     static                          
-       ___case_2_lbl00071   0x00cab0    program     static                          
-       ___case_3_lbl00072   0x00cace    program     static                          
-   ___switchexit_lbl00068   0x00cad2    program     static                          
-           ___if_lbl00073   0x00cad2    program     static                          
-       ___case_7_lbl00074   0x00cad4    program     static                          
-       ___case_8_lbl00075   0x00cad8    program     static                          
-       ___case_9_lbl00076   0x00cb6e    program     static                          
-      ___default_lbl00077   0x00cb72    program     static                          
-   ___switchexit_lbl00047   0x00cb74    program     static                          
-       ___return_lbl00046   0x00cb74    program     static                          
-            WriteGameOver   0x00cb88    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-       CheckButtonPressed   0x00cb98    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-         InitializeSystem   0x00cbfa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                 UserInit   0x00cc38    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                ProcessIO   0x00cc5e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_0   0x00cce0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_1   0x00cd00    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_2   0x00cd20    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_3   0x00cd36    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_4   0x00cd54    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_5   0x00cd72    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_6   0x00cd7c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_7   0x00cd8a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __tmplbl_15   0x00cd9c    program     static                          
-                   __pa_8   0x00cd9c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                   __pa_9   0x00cda6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_10   0x00cdbc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_11   0x00cdc6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_12   0x00cdd4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_13   0x00cde2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_14   0x00cdf0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_15   0x00ce00    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_16   0x00ce0a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_17   0x00ce1a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                  __pa_18   0x00ce20    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                 FLO0832U   0x00ce2a    program     extern C:\MCC18\src\traditional\math\cast08FP.asm
-                 FLO0832S   0x00ce2e    program     extern C:\MCC18\src\traditional\math\cast08FP.asm
-                jI2F08Beg   0x00ce38    program     static C:\MCC18\src\traditional\math\cast08FP.asm
-                 FLO1632U   0x00ce4c    program     extern C:\MCC18\src\traditional\math\cast16FP.asm
-                 FLO1632S   0x00ce50    program     extern C:\MCC18\src\traditional\math\cast16FP.asm
-                jI2F16Beg   0x00ce60    program     static C:\MCC18\src\traditional\math\cast16FP.asm
-                    FPS32   0x00ce76    program     extern C:\MCC18\src\traditional\math\addFP.asm
-                    FPA32   0x00ce78    program     extern C:\MCC18\src\traditional\math\addFP.asm
-                jBANotInf   0x00ce96    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jANotInf   0x00cea0    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jBNotInf   0x00ceae    program     static C:\MCC18\src\traditional\math\addFP.asm
-            jDifOrPosSign   0x00cec2    program     static C:\MCC18\src\traditional\math\addFP.asm
-             jNotBothZero   0x00cec6    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jAltBexp   0x00cef2    program     static C:\MCC18\src\traditional\math\addFP.asm
-              jAandWsetup   0x00cf04    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jANotNeg   0x00cf34    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jWNotNeg   0x00cf48    program     static C:\MCC18\src\traditional\math\addFP.asm
-               jShiftLoop   0x00cf4e    program     static C:\MCC18\src\traditional\math\addFP.asm
-               jShiftDone   0x00cf5c    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jSignDone   0x00cf8c    program     static C:\MCC18\src\traditional\math\addFP.asm
-               jFinalSign   0x00cf9c    program     static C:\MCC18\src\traditional\math\addFP.asm
-                    FPD32   0x00cfa4    program     extern C:\MCC18\src\traditional\math\divFP.asm
-                 jANotInf   0x00cfc2    program     static C:\MCC18\src\traditional\math\divFP.asm
-              jSignedZero   0x00cfcc    program     static C:\MCC18\src\traditional\math\divFP.asm
-                jANotZero   0x00cfd6    program     static C:\MCC18\src\traditional\math\divFP.asm
-                    jLoop   0x00cffe    program     static C:\MCC18\src\traditional\math\divFP.asm
-                jNoAdjust   0x00d022    program     static C:\MCC18\src\traditional\math\divFP.asm
-                    jNext   0x00d024    program     static C:\MCC18\src\traditional\math\divFP.asm
-                    FPM32   0x00d04a    program     extern C:\MCC18\src\traditional\math\mulFP.asm
-                 jANotInf   0x00d068    program     static C:\MCC18\src\traditional\math\mulFP.asm
-              jBothFinite   0x00d076    program     static C:\MCC18\src\traditional\math\mulFP.asm
-                jHaveZero   0x00d07e    program     static C:\MCC18\src\traditional\math\mulFP.asm
-             jBothNotZero   0x00d082    program     static C:\MCC18\src\traditional\math\mulFP.asm
-                 FXD1616S   0x00d124    program     extern C:\MCC18\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x00d136    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                   D1616S   0x00d146    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x00d150    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x00d154    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x00d166    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
-                 FXM1616S   0x00d170    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x00d1bc    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
-                  INT3208   0x00d1ca    program     extern C:\MCC18\src\traditional\math\castFP08.asm
-                     jMax   0x00d1da    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jMaxPos   0x00d1de    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jMaxNeg   0x00d1e4    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                    jZero   0x00d1ea    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jNotInf   0x00d1ee    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                    jLoop   0x00d1fe    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                jLoopExit   0x00d20c    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                    jExit   0x00d216    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  INT3216   0x00d218    program     extern C:\MCC18\src\traditional\math\castFP16.asm
-                     jMax   0x00d228    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                  jMaxPos   0x00d22c    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                  jMaxNeg   0x00d236    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                    jZero   0x00d23e    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                  jNotInf   0x00d244    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                    jLoop   0x00d254    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                jLoopExit   0x00d264    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                    jExit   0x00d274    program     static C:\MCC18\src\traditional\math\castFP16.asm
-                  TAEQB32   0x00d276    program     extern C:\MCC18\src\traditional\math\eqFP.asm
-                  TAGTB32   0x00d284    program     extern C:\MCC18\src\traditional\math\gtFP.asm
-                  TALTB32   0x00d296    program     extern C:\MCC18\src\traditional\math\ltFP.asm
-              __FpCompare   0x00d2a8    program     extern C:\MCC18\src\traditional\math\compFP.asm
-             jBothNotZero   0x00d2c6    program     static C:\MCC18\src\traditional\math\compFP.asm
-                 jSignsEQ   0x00d2ca    program     static C:\MCC18\src\traditional\math\compFP.asm
-                      jEQ   0x00d2e2    program     static C:\MCC18\src\traditional\math\compFP.asm
-                      jNE   0x00d2e6    program     static C:\MCC18\src\traditional\math\compFP.asm
-                    jExch   0x00d2ee    program     static C:\MCC18\src\traditional\math\compFP.asm
-                  jNoExch   0x00d30e    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jFinal   0x00d318    program     static C:\MCC18\src\traditional\math\compFP.asm
-                  jAisNeg   0x00d324    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jShift   0x00d32a    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jExpEQ   0x00d334    program     static C:\MCC18\src\traditional\math\compFP.asm
-                  jRotate   0x00d340    program     static C:\MCC18\src\traditional\math\compFP.asm
-            __FpReturnNaN   0x00d352    program     extern C:\MCC18\src\traditional\math\packFP.asm
-                 __FpExit   0x00d35e    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x00d360    program     extern C:\MCC18\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x00d364    program     extern C:\MCC18\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x00d36a    program     extern C:\MCC18\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x00d36e    program     static C:\MCC18\src\traditional\math\packFP.asm
-               jZero1and2   0x00d372    program     static C:\MCC18\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x00d378    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x00d37c    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x00d384    program     extern C:\MCC18\src\traditional\math\packFP.asm
-                 __FpPack   0x00d38a    program     extern C:\MCC18\src\traditional\math\packFP.asm
-                  jPkLoop   0x00d398    program     static C:\MCC18\src\traditional\math\packFP.asm
-             jPkShiftDone   0x00d3b4    program     static C:\MCC18\src\traditional\math\packFP.asm
-               jPkRoundIt   0x00d3ca    program     static C:\MCC18\src\traditional\math\packFP.asm
-              __FpReturnW   0x00d3e2    program     extern C:\MCC18\src\traditional\math\packFP.asm
-             jPkRoundDone   0x00d3e2    program     static C:\MCC18\src\traditional\math\packFP.asm
-              __FpUnPackA   0x00d402    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkA1   0x00d40c    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x00d41a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x00d424    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x00d42e    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x00d432    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x00d43c    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x00d44a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x00d454    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  DelayMs   0x00d45e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-              ResetDevice   0x00d4a6    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-             WriteCommand   0x00d54c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                WriteData   0x00d552    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-              FillDisplay   0x00d558    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-          oledWriteChar1x   0x00d5a8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-       oledWriteNegChar1x   0x00d5ec    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-         oledPutROMString   0x00d630    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-      oledPutROMNegString   0x00d64e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-            oledPutString   0x00d66c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-         oledPutNegString   0x00d68a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-             oledPutImage   0x00d6a8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_0   0x00d740    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_1   0x00d75c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_2   0x00d762    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_3   0x00d76e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_4   0x00d788    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_5   0x00d790    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_6   0x00d7a2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_7   0x00d7b2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_8   0x00d7bc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                   __pa_9   0x00d7ca    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_10   0x00d7e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_11   0x00d7f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_12   0x00d808    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_13   0x00d810    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_14   0x00d81e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_15   0x00d828    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_16   0x00d872    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_17   0x00d87e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_18   0x00d886    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_19   0x00d88e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_20   0x00d896    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_21   0x00d8a0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_22   0x00d8ac    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-                  __pa_23   0x00d8b6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-       _generatePhysWalls   0x00d8bc    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                resetBall   0x00d92a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level0   0x00d9c0    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level1   0x00d9c2    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level2   0x00d9c4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level3   0x00d9c6    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level4   0x00da8e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   level5   0x00dae4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   __pa_0   0x00dbb6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-                   __pa_1   0x00dbc4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
-               InitBma150   0x00dbd0    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
-           ___if_lbl00001   0x00dc16    program     static                          
-       ___return_lbl00000   0x00dc7c    program     static                          
-              SpiPinRemap   0x00dc90    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
-         BMA150_WriteByte   0x00dcb4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
-               __tmplbl_1   0x00dcc8    program     static                          
-               __tmplbl_0   0x00dcd0    program     static                          
-           ___if_lbl00005   0x00dcdc    program     static                          
-        ___while_lbl00006   0x00dce6    program     static                          
-        ___while_lbl00007   0x00dcea    program     static                          
-         ___else_lbl00009   0x00dd7e    program     static                          
-           ___if_lbl00008   0x00dd86    program     static                          
-        ___while_lbl00010   0x00dd86    program     static                          
-        ___while_lbl00011   0x00dd8a    program     static                          
-       ___return_lbl00003   0x00dd8c    program     static                          
-          BMA150_ReadByte   0x00dd96    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
-        ___while_lbl00013   0x00ddaa    program     static                          
-        ___while_lbl00014   0x00ddae    program     static                          
-        ___while_lbl00015   0x00de32    program     static                          
-        ___while_lbl00016   0x00de36    program     static                          
-       ___return_lbl00012   0x00de3c    program     static                          
-              __string_25   0x00de44    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_24   0x00de58    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_23   0x00de6e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_22   0x00de84    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_21   0x00de9a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_20   0x00deb0    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_19   0x00dec6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_18   0x00dedc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_17   0x00def2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_16   0x00df08    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_15   0x00df1f    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_14   0x00df35    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_13   0x00df4b    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_12   0x00df61    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_11   0x00df77    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-              __string_10   0x00df8d    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_9   0x00dfa3    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_8   0x00dfba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_7   0x00dfce    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_6   0x00dfe5    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_5   0x00dffc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_4   0x00e012    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_3   0x00e028    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_2   0x00e03f    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_1   0x00e056    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-               __string_0   0x00e06c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
-                 InitCTMU   0x00e082    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-                  InitADC   0x00e09a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-               mTouchInit   0x00e0ce    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-         mTouchReadButton   0x00e0d4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-        ___while_lbl00004   0x00e172    program     static                          
-        ___while_lbl00005   0x00e176    program     static                          
-       ___return_lbl00003   0x00e190    program     static                          
-          mTouchCalibrate   0x00e1a4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-                   __pa_0   0x00e21a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-                   __pa_1   0x00e22a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-                   __pa_2   0x00e23e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-                   __pa_3   0x00e252    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
-                g_pucFont   0x00e266    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
-           AppPowerEnable   0x00e442    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
-          AppPowerDisable   0x00e48e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
-            AppPowerReady   0x00e49a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
-                  sprintf   0x00e532    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
-                _do_cinit   0x00e5de    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                     test   0x00e5f8    program     static                          
-                copy_loop   0x00e650    program     static                          
-            copy_one_byte   0x00e656    program     static                          
-             done_copying   0x00e664    program     static                          
-                     done   0x00e67a    program     static                          
-       ___return_lbl00002   0x00e67a    program     static                          
-                     putc   0x00e67c    program     extern C:\MCC18\src\traditional\stdclib\putc.c
-                  FXM3232   0x00e700    program     extern C:\MCC18\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x00e76e    program     static                          
-                   strlen   0x00e770    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
-                    jLoop   0x00e780    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                     jEnd   0x00e78a    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x00e78c    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x00e7aa    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                   _2jEnd   0x00e7c0    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x00e7c2    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                 FXD3232U   0x00e7d6    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
-                     loop   0x00e7e4    program     static                          
-                   _false   0x00e818    program     static                          
-       ___return_lbl00000   0x00e81c    program     static                          
-                 FXD1616U   0x00e81e    program     extern C:\MCC18\src\traditional\math\fxd1616u.c
-                     loop   0x00e828    program     static                          
-                  endloop   0x00e844    program     static                          
-       ___return_lbl00000   0x00e848    program     static                          
-                  isdigit   0x00e84a    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
-                   jMatch   0x00e86a    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x00e86c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-                 _startup   0x00e86e    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                     loop   0x00e87e    program     static                          
-       ___return_lbl00001   0x00e888    program     static                          
-              _usart_putc   0x00e88a    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
-                     loop   0x00e89a    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
-                 s_digits   0x00e8a6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-            __zero_memory   0x00e8b8    program     extern C:\MCC18\src\traditional\proc\p18F46J50.asm
-               clear_loop   0x00e8be    program     static C:\MCC18\src\traditional\proc\p18F46J50.asm
+         DemoIntroduction   0x00c6f8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+       ___case_0_lbl00048   0x00c734    program     static                          
+       ___case_1_lbl00050   0x00c7fc    program     static                          
+           ___if_lbl00049   0x00c808    program     static                          
+       ___case_4_lbl00051   0x00c80a    program     static                          
+       ___case_5_lbl00053   0x00c8c6    program     static                          
+           ___if_lbl00052   0x00c8d0    program     static                          
+       ___case_6_lbl00054   0x00c8d2    program     static                          
+           ___if_lbl00055   0x00c8f0    program     static                          
+         ___else_lbl00059   0x00c8f2    program     static                          
+           ___if_lbl00056   0x00c904    program     static                          
+           ___if_lbl00057   0x00c904    program     static                          
+           ___if_lbl00058   0x00c904    program     static                          
+         ___else_lbl00061   0x00c958    program     static                          
+           ___if_lbl00060   0x00c972    program     static                          
+         ___else_lbl00063   0x00c994    program     static                          
+           ___if_lbl00062   0x00c9ae    program     static                          
+         ___else_lbl00065   0x00c9d2    program     static                          
+           ___if_lbl00064   0x00c9ec    program     static                          
+         ___else_lbl00067   0x00ca10    program     static                          
+           ___if_lbl00066   0x00ca2a    program     static                          
+       ___case_0_lbl00069   0x00ca84    program     static                          
+       ___case_1_lbl00070   0x00ca8e    program     static                          
+       ___case_2_lbl00071   0x00cab4    program     static                          
+       ___case_3_lbl00072   0x00cad2    program     static                          
+           ___if_lbl00073   0x00cad6    program     static                          
+   ___switchexit_lbl00068   0x00cad6    program     static                          
+       ___case_7_lbl00074   0x00cad8    program     static                          
+       ___case_8_lbl00075   0x00cadc    program     static                          
+       ___case_9_lbl00076   0x00cb72    program     static                          
+      ___default_lbl00077   0x00cb76    program     static                          
+   ___switchexit_lbl00047   0x00cb78    program     static                          
+       ___return_lbl00046   0x00cb78    program     static                          
+            WriteGameOver   0x00cb8c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+            WriteCongrats   0x00cba4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+       CheckButtonPressed   0x00cbf4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+         InitializeSystem   0x00cc56    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                 UserInit   0x00cc94    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                ProcessIO   0x00ccba    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_0   0x00cd3c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_1   0x00cd5c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_2   0x00cd66    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_3   0x00cd86    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_4   0x00cd9c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_5   0x00cdba    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_6   0x00cdd8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_7   0x00cde6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                   __pa_8   0x00cdf8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __tmplbl_15   0x00cdf8    program     static                          
+                   __pa_9   0x00ce02    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_10   0x00ce18    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_11   0x00ce22    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_12   0x00ce30    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_13   0x00ce3e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_14   0x00ce4c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_15   0x00ce5c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_16   0x00ce66    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_17   0x00ce70    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_18   0x00ce80    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                  __pa_19   0x00ce86    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                 FLO0832U   0x00ce90    program     extern C:\MCC18\src\traditional\math\cast08FP.asm
+                 FLO0832S   0x00ce94    program     extern C:\MCC18\src\traditional\math\cast08FP.asm
+                jI2F08Beg   0x00ce9e    program     static C:\MCC18\src\traditional\math\cast08FP.asm
+                 FLO1632U   0x00ceb2    program     extern C:\MCC18\src\traditional\math\cast16FP.asm
+                 FLO1632S   0x00ceb6    program     extern C:\MCC18\src\traditional\math\cast16FP.asm
+                jI2F16Beg   0x00cec6    program     static C:\MCC18\src\traditional\math\cast16FP.asm
+                    FPS32   0x00cedc    program     extern C:\MCC18\src\traditional\math\addFP.asm
+                    FPA32   0x00cede    program     extern C:\MCC18\src\traditional\math\addFP.asm
+                jBANotInf   0x00cefc    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jANotInf   0x00cf06    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jBNotInf   0x00cf14    program     static C:\MCC18\src\traditional\math\addFP.asm
+            jDifOrPosSign   0x00cf28    program     static C:\MCC18\src\traditional\math\addFP.asm
+             jNotBothZero   0x00cf2c    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jAltBexp   0x00cf58    program     static C:\MCC18\src\traditional\math\addFP.asm
+              jAandWsetup   0x00cf6a    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jANotNeg   0x00cf9a    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jWNotNeg   0x00cfae    program     static C:\MCC18\src\traditional\math\addFP.asm
+               jShiftLoop   0x00cfb4    program     static C:\MCC18\src\traditional\math\addFP.asm
+               jShiftDone   0x00cfc2    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jSignDone   0x00cff2    program     static C:\MCC18\src\traditional\math\addFP.asm
+               jFinalSign   0x00d002    program     static C:\MCC18\src\traditional\math\addFP.asm
+                    FPD32   0x00d00a    program     extern C:\MCC18\src\traditional\math\divFP.asm
+                 jANotInf   0x00d028    program     static C:\MCC18\src\traditional\math\divFP.asm
+              jSignedZero   0x00d032    program     static C:\MCC18\src\traditional\math\divFP.asm
+                jANotZero   0x00d03c    program     static C:\MCC18\src\traditional\math\divFP.asm
+                    jLoop   0x00d064    program     static C:\MCC18\src\traditional\math\divFP.asm
+                jNoAdjust   0x00d088    program     static C:\MCC18\src\traditional\math\divFP.asm
+                    jNext   0x00d08a    program     static C:\MCC18\src\traditional\math\divFP.asm
+                    FPM32   0x00d0b0    program     extern C:\MCC18\src\traditional\math\mulFP.asm
+                 jANotInf   0x00d0ce    program     static C:\MCC18\src\traditional\math\mulFP.asm
+              jBothFinite   0x00d0dc    program     static C:\MCC18\src\traditional\math\mulFP.asm
+                jHaveZero   0x00d0e4    program     static C:\MCC18\src\traditional\math\mulFP.asm
+             jBothNotZero   0x00d0e8    program     static C:\MCC18\src\traditional\math\mulFP.asm
+                 FXD1616S   0x00d18a    program     extern C:\MCC18\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x00d19c    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                   D1616S   0x00d1ac    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x00d1b6    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x00d1ba    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x00d1cc    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                 FXM1616S   0x00d1d6    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x00d222    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
+                  INT3208   0x00d230    program     extern C:\MCC18\src\traditional\math\castFP08.asm
+                     jMax   0x00d240    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxPos   0x00d244    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x00d24a    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jZero   0x00d250    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jNotInf   0x00d254    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jLoop   0x00d264    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                jLoopExit   0x00d272    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jExit   0x00d27c    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  INT3216   0x00d27e    program     extern C:\MCC18\src\traditional\math\castFP16.asm
+                     jMax   0x00d28e    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                  jMaxPos   0x00d292    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                  jMaxNeg   0x00d29c    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                    jZero   0x00d2a4    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                  jNotInf   0x00d2aa    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                    jLoop   0x00d2ba    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                jLoopExit   0x00d2ca    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                    jExit   0x00d2da    program     static C:\MCC18\src\traditional\math\castFP16.asm
+                  TAEQB32   0x00d2dc    program     extern C:\MCC18\src\traditional\math\eqFP.asm
+                  TAGTB32   0x00d2ea    program     extern C:\MCC18\src\traditional\math\gtFP.asm
+                  TALTB32   0x00d2fc    program     extern C:\MCC18\src\traditional\math\ltFP.asm
+              __FpCompare   0x00d30e    program     extern C:\MCC18\src\traditional\math\compFP.asm
+             jBothNotZero   0x00d32c    program     static C:\MCC18\src\traditional\math\compFP.asm
+                 jSignsEQ   0x00d330    program     static C:\MCC18\src\traditional\math\compFP.asm
+                      jEQ   0x00d348    program     static C:\MCC18\src\traditional\math\compFP.asm
+                      jNE   0x00d34c    program     static C:\MCC18\src\traditional\math\compFP.asm
+                    jExch   0x00d354    program     static C:\MCC18\src\traditional\math\compFP.asm
+                  jNoExch   0x00d374    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jFinal   0x00d37e    program     static C:\MCC18\src\traditional\math\compFP.asm
+                  jAisNeg   0x00d38a    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jShift   0x00d390    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jExpEQ   0x00d39a    program     static C:\MCC18\src\traditional\math\compFP.asm
+                  jRotate   0x00d3a6    program     static C:\MCC18\src\traditional\math\compFP.asm
+            __FpReturnNaN   0x00d3b8    program     extern C:\MCC18\src\traditional\math\packFP.asm
+                 __FpExit   0x00d3c4    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x00d3c6    program     extern C:\MCC18\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x00d3ca    program     extern C:\MCC18\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x00d3d0    program     extern C:\MCC18\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00d3d4    program     static C:\MCC18\src\traditional\math\packFP.asm
+               jZero1and2   0x00d3d8    program     static C:\MCC18\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x00d3de    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00d3e2    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x00d3ea    program     extern C:\MCC18\src\traditional\math\packFP.asm
+                 __FpPack   0x00d3f0    program     extern C:\MCC18\src\traditional\math\packFP.asm
+                  jPkLoop   0x00d3fe    program     static C:\MCC18\src\traditional\math\packFP.asm
+             jPkShiftDone   0x00d41a    program     static C:\MCC18\src\traditional\math\packFP.asm
+               jPkRoundIt   0x00d430    program     static C:\MCC18\src\traditional\math\packFP.asm
+              __FpReturnW   0x00d448    program     extern C:\MCC18\src\traditional\math\packFP.asm
+             jPkRoundDone   0x00d448    program     static C:\MCC18\src\traditional\math\packFP.asm
+              __FpUnPackA   0x00d468    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x00d472    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x00d480    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x00d48a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x00d494    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x00d498    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00d4a2    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x00d4b0    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x00d4ba    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  DelayMs   0x00d4c4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+              ResetDevice   0x00d50c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+             WriteCommand   0x00d5b2    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                WriteData   0x00d5b8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+              FillDisplay   0x00d5be    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+          oledWriteChar1x   0x00d60e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+       oledWriteNegChar1x   0x00d652    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+         oledPutROMString   0x00d696    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+      oledPutROMNegString   0x00d6b4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+            oledPutString   0x00d6d2    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+         oledPutNegString   0x00d6f0    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+             oledPutImage   0x00d70e    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_0   0x00d7a6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_1   0x00d7c2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_2   0x00d7c8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_3   0x00d7d4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_4   0x00d7ee    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_5   0x00d7f6    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_6   0x00d808    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_7   0x00d818    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_8   0x00d822    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                   __pa_9   0x00d830    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_10   0x00d84a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_11   0x00d85a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_12   0x00d86e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_13   0x00d876    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_14   0x00d884    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_15   0x00d88e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_16   0x00d8d8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_17   0x00d8e4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_18   0x00d8ec    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_19   0x00d8f4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_20   0x00d8fc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_21   0x00d906    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_22   0x00d912    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+                  __pa_23   0x00d91c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+       _generatePhysWalls   0x00d922    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                resetBall   0x00d990    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level0   0x00da26    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level1   0x00da28    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level2   0x00da2a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level3   0x00da2c    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level4   0x00daf4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   level5   0x00db4a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   __pa_0   0x00dc1c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+                   __pa_1   0x00dc2a    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\levels.c
+               InitBma150   0x00dc36    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
+           ___if_lbl00001   0x00dc7c    program     static                          
+       ___return_lbl00000   0x00dce2    program     static                          
+              SpiPinRemap   0x00dcf6    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
+         BMA150_WriteByte   0x00dd1a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
+               __tmplbl_1   0x00dd2e    program     static                          
+               __tmplbl_0   0x00dd36    program     static                          
+           ___if_lbl00005   0x00dd42    program     static                          
+        ___while_lbl00006   0x00dd4c    program     static                          
+        ___while_lbl00007   0x00dd50    program     static                          
+         ___else_lbl00009   0x00dde4    program     static                          
+        ___while_lbl00010   0x00ddec    program     static                          
+           ___if_lbl00008   0x00ddec    program     static                          
+        ___while_lbl00011   0x00ddf0    program     static                          
+       ___return_lbl00003   0x00ddf2    program     static                          
+          BMA150_ReadByte   0x00ddfc    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\BMA150.c
+        ___while_lbl00013   0x00de10    program     static                          
+        ___while_lbl00014   0x00de14    program     static                          
+        ___while_lbl00015   0x00de98    program     static                          
+        ___while_lbl00016   0x00de9c    program     static                          
+       ___return_lbl00012   0x00dea2    program     static                          
+              __string_25   0x00deaa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_24   0x00debe    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_23   0x00ded4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_22   0x00deea    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_21   0x00df00    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_20   0x00df16    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_19   0x00df2c    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_18   0x00df42    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_17   0x00df58    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_16   0x00df6e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_15   0x00df85    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_14   0x00df9b    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_13   0x00dfb1    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_12   0x00dfc7    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_11   0x00dfdd    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+              __string_10   0x00dff3    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_9   0x00e009    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_8   0x00e020    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_7   0x00e034    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_6   0x00e04b    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_5   0x00e062    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_4   0x00e078    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_3   0x00e08e    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_2   0x00e0a5    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_1   0x00e0bc    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+               __string_0   0x00e0d2    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
+                 InitCTMU   0x00e0e8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                  InitADC   0x00e100    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+               mTouchInit   0x00e134    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+         mTouchReadButton   0x00e13a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+        ___while_lbl00004   0x00e1d8    program     static                          
+        ___while_lbl00005   0x00e1dc    program     static                          
+       ___return_lbl00003   0x00e1f6    program     static                          
+          mTouchCalibrate   0x00e20a    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                   __pa_0   0x00e280    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                   __pa_1   0x00e290    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                   __pa_2   0x00e2a4    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                   __pa_3   0x00e2b8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\mtouch.c
+                g_pucFont   0x00e2cc    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\oled.c
+           AppPowerEnable   0x00e4a8    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
+          AppPowerDisable   0x00e4f4    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
+            AppPowerReady   0x00e500    program     extern C:\Users\Ambin\OneDrive\Documenten\Labirynth\soft_start.c
+                  sprintf   0x00e598    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
+                _do_cinit   0x00e644    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     test   0x00e65e    program     static                          
+                copy_loop   0x00e6b6    program     static                          
+            copy_one_byte   0x00e6bc    program     static                          
+             done_copying   0x00e6ca    program     static                          
+                     done   0x00e6e0    program     static                          
+       ___return_lbl00002   0x00e6e0    program     static                          
+                     putc   0x00e6e2    program     extern C:\MCC18\src\traditional\stdclib\putc.c
+                  FXM3232   0x00e766    program     extern C:\MCC18\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x00e7d4    program     static                          
+                   strlen   0x00e7d6    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jLoop   0x00e7e6    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                     jEnd   0x00e7f0    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x00e7f2    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x00e810    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x00e826    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x00e828    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                 FXD3232U   0x00e83c    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                     loop   0x00e84a    program     static                          
+                   _false   0x00e87e    program     static                          
+       ___return_lbl00000   0x00e882    program     static                          
+                 FXD1616U   0x00e884    program     extern C:\MCC18\src\traditional\math\fxd1616u.c
+                     loop   0x00e88e    program     static                          
+                  endloop   0x00e8aa    program     static                          
+       ___return_lbl00000   0x00e8ae    program     static                          
+                  isdigit   0x00e8b0    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x00e8d0    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x00e8d2    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                 _startup   0x00e8d4    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     loop   0x00e8e4    program     static                          
+       ___return_lbl00001   0x00e8ee    program     static                          
+              _usart_putc   0x00e8f0    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                     loop   0x00e900    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                 s_digits   0x00e90c    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+            __zero_memory   0x00e91e    program     extern C:\MCC18\src\traditional\proc\p18F46J50.asm
+               clear_loop   0x00e924    program     static C:\MCC18\src\traditional\proc\p18F46J50.asm
                __config_0   0x00fff8    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                __config_1   0x00fff9    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c
                __config_2   0x00fffa    program     static C:\Users\Ambin\OneDrive\Documenten\Labirynth\main.c

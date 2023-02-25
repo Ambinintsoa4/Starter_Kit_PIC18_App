@@ -73,4 +73,5 @@ void InitPhysics();
 BOOL IsCollid(int x, int y);
 int distance(int a, int b);
 void WriteGameOver(void);
+void WriteCongrats(void);
 #endif

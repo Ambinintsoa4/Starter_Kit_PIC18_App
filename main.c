@@ -648,8 +648,17 @@ void DemoIntroduction(void)
 
 void WriteGameOver(void)
 {
-	//	FillDisplay(0x00);
+		FillDisplay(0x00);
         oledPutROMString((ROM_STRING)"      GAME OVER    ",3,0);
+}
+void WriteCongrats(void)
+{
+			FillDisplay(0xFF);
+			oledPutROMNegString((ROM_STRING)"  CORNGRATULATIONS!  ",0,0);
+			oledPutROMNegString((ROM_STRING)"   You won nothing   ",2,0);
+			oledPutROMNegString((ROM_STRING)" You just waste your ",3,0);
+			oledPutROMNegString((ROM_STRING)"   PRECIOUS time :)  ",4,0);
+			DelayMs(2000);
 }
 
 BOOL CheckButtonPressed(void)
