@@ -5,7 +5,7 @@
 #include "graph.h"
 #include "levels.h"
 
-struct Food food;
+struct Spaceship spaceship;
 struct Meteorite meteorite;
 struct Meteorite meteorite2;
 

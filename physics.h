@@ -22,12 +22,27 @@ extern int DX,DX2,DY,DY2;
 
 extern signed short int CoefMeteorite2VelX;
 extern int Meteorite2BaseX, Meteorite2BaseY;
-extern signed short float Meteorite2VelX; // Velocity of the Meteorite in X
-extern float Meteorite2AccX;// Acceleration of the Meteorite in X (gravity) float MeteoriteAccX=9.81f;// Acceleration of the Meteorite in X (gravity)
-extern float Meteorite2Mass;// Mass of the Meteorite (500g)
-extern signed short int deltaX2;// Displacement in X of the Meteorite during a time interval dt
-extern signed short int deltaY2;// Displacement in Y of the Meteorite during a time interval dt
+extern signed short float Meteorite2VelX;
+extern float Meteorite2AccX;
+extern float Meteorite2Mass;
+extern signed short int deltaX2;
+extern signed short int deltaY2;
 
+extern signed short int CoefSpaceshipVelX;
+extern signed short int CoefSpaceship2VelX;
+
+extern int SpaceshipBaseX, Spaceship2BaseX, SpaceshipBaseY, Spaceship2BaseY;
+extern signed short float SpaceshipVelX;
+extern float SpaceshipAccX;
+extern float SpaceshipMass;
+
+extern signed short int deltaSCX;
+extern signed short int deltaSCY;
+
+extern signed short int deltaSCX2;
+extern signed short int deltaSCY2;
+
+extern int DSCX,DSCX2,DSCY,DSCY2;
 
 extern int planeX,planeY;
 extern float g_planeX, g_planeY, g_planeZ;
@@ -57,4 +72,5 @@ void Meteorite_Rain(float dtime, unsigned char animBall);
 void InitPhysics();
 BOOL IsCollid(int x, int y);
 int distance(int a, int b);
+void WriteGameOver(void);
 #endif

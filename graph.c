@@ -80,7 +80,7 @@ void Fill(unsigned char clr)
 
 
 
-void DrawFood(unsigned char x, unsigned char y)
+void DrawSpaceship(unsigned char x, unsigned char y)
 {
 						SetPx(x+3,y-1); SetPx(x+4,y-1);
 	 					SetPx(x+3,y-2); SetPx(x+4,y-2);
@@ -272,24 +272,24 @@ if(flag == 0){
 // Clear the scene
 	Fill(0x00);
 //  DrawPlane (55, 20);
-	DrawFood(food.x, food.y);
-	DrawFood(food.x, food.y + 40);
+	DrawSpaceship(spaceship.x, spaceship.y);
+	DrawSpaceship(spaceship.x, spaceship.y + 40);
 
-//	DrawMeteorite(food.x - 5, food.y + 3);
-	DrawMeteorite( (meteorite.x), food.y );
-	DrawMeteorite( meteorite2.x, food.y + 40);
+//	DrawMeteorite(spaceship.x - 5, spaceship.y + 3);
+	DrawMeteorite( (meteorite.x), spaceship.y );
+	DrawMeteorite( meteorite2.x, spaceship.y + 40);
 	DrawPlane ((unsigned char)g_planeX, (unsigned char)g_planeY);
 }
-
-	else if(flag == 1)
-{		Fill(0x00);
-		WriteGameOver();
-   		if(CheckButtonPressed() == TRUE)
-            {
-                DemoIntroduction();
-            }
-
+else if(flag == 1){
+	Fill(0x00);
+	WriteGameOver();
 }
+else if (flag == 2){
+	Fill(0x00);
+	DrawCircle(55, 20);
+} 
+
+
 	// Send all data to screen driver
 	FlushGraphics();
 }

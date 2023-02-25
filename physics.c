@@ -17,8 +17,9 @@ signed short int g_devAccOffsetZ = 0;
 
 
 
-float g_foodX, g_foodY;
+float g_spaceshipX, g_spaceshipY;
 
+//Meteorite
 signed short int CoefMeteoriteVelX;
 signed short int CoefMeteorite2VelX;
 
@@ -40,6 +41,26 @@ signed short int deltaY2;// Displacement in Y of the meteorite during a time int
 
 int DX,DX2,DY,DY2;// Relative distance between plane and meteorite in X,Y
 int DX2WIN,DY2WIN;// Relative distance between plane and meteorite in X,Y to win
+
+//Spaceship
+signed short int CoefSpaceshipVelX;
+signed short int CoefSpaceship2VelX;
+
+int SpaceshipBaseX, Spaceship2BaseX, SpaceshipBaseY, Spaceship2BaseY; // Position of the base of the Spaceship in X,Y
+signed short float SpaceshipVelX;// Velocity of the Spaceship in X
+float SpaceshipAccX=9.81f;// Acceleration of the Spaceship in X (gravity)
+float SpaceshipMass=0.5f;// Mass of the Spaceship (500g)
+
+signed short int deltaSCX;// Displacement in X of the Spaceship during a time interval dt
+signed short int deltaSCY;// Displacement in Y of the Spaceship during a time interval dt
+
+signed short int deltaSCX2;// Displacement in X of the Spaceship during a time interval dt
+signed short int deltaSCY2;// Displacement in Y of the Spaceship during a time interval dt
+
+int DSCX,DSCX2,DSCY,DSCY2;// Relative distance between plane and Spaceship in X,Y
+int DSCX2WIN,DSCY2WIN;// Relative distance between plane and meteorite in X,Y to win
+
+
 
 int planeHeadX,planeHeadY;// plane's head position in X,Y
 float g_planeX, g_planeY, g_planeZ;
@@ -130,6 +151,17 @@ void Step(float dtime, unsigned char animPlane)
 
 	ReadAccState();
 
+	
+	SpaceshipBaseX = spaceship.x;
+	Spaceship2BaseX = spaceship.x;
+	SpaceshipBaseY = spaceship.y;
+	Spaceship2BaseY = spaceship.y + 40;
+
+	DSCX = distance(SpaceshipBaseX, g_planeX);
+	DSCX2 = distance(Spaceship2BaseX, g_planeX);
+	DSCY =  distance(SpaceshipBaseY, g_planeY);
+	DSCY2 = distance(Spaceship2BaseY, g_planeY);
+
 	if (animPlane)
 	{
 		g_planeForceX = (float)(g_devAccelerationY-g_devAccOffsetY)/2.0f;
@@ -178,6 +210,11 @@ void Step(float dtime, unsigned char animPlane)
 			if ((g_colDirs & 0x01) == 0x01)
 				g_planeGth = 1;
 		}
+
+if (g_planeX == 118)
+		{
+			flag = 2;
+			}
 	}
 }
 
@@ -189,8 +226,8 @@ void InitPhysics()
 	g_planeMass = 0.5f;	
 
 	//Food = Vaisseau spatiale
-	food.x = 120;
-	food.y = 12;
+	spaceship.x = 120;
+	spaceship.y = 12;
 	
 	// Meteorite 1
 	MeteoriteVelX=1.0f;
@@ -240,8 +277,8 @@ void Meteorite_Rain(float dtime, unsigned char animBall)
 	MeteoriteBaseX=meteorite.x;
 	Meteorite2BaseX=meteorite2.x;
 
-	MeteoriteBaseY=food.y;
-	Meteorite2BaseY=food.y + 40;
+	MeteoriteBaseY=spaceship.y;
+	Meteorite2BaseY=spaceship.y + 40;
 
 	DX = distance( MeteoriteBaseX, g_planeX);
 	DX2 = distance( Meteorite2BaseX, g_planeX);
@@ -249,14 +286,14 @@ void Meteorite_Rain(float dtime, unsigned char animBall)
 	DY2 = distance( Meteorite2BaseY, g_planeY);
 
 
+
 if (IsCollid(DX, DY) == TRUE || IsCollid(DX2, DY2)== TRUE)
 		{
 		 	flag = 1;
-		}
-}
+		} 
 	return;
+	}
 }
-
 BOOL IsCollid(int x, int y){
 	DX2WIN=1;
 	DY2WIN=3;
